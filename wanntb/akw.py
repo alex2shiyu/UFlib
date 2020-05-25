@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import numpy as np
-import progressbar as pbar
+import utility.progressbar as pbar
 
 def get_akw_mpi(hk, sgm, udc, fmesh, mu, is_mpi=False, comm=None):
     """

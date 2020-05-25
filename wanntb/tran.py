@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import numpy as np
-import progressbar as pbar
+import utility.progressbar as pbar
 #from mpi4py import MPI
 def tran_unitary(op, tmat,transpose=False):
 
