@@ -1,0 +1,10 @@
+this scripts is transfrom the order of orbtials to what Wannier_Hamiltonian_symmetrization needs.
+
+<UTe2_soc_qe_hr.dat> is the target wannier90 hamiltonian input file.
+the input hamiltonain is obtained from quantum espresso for (UTe2)2
+the order is f(U1,udud),f(U2,udud),d(U1,udud),d(U2,udud),p(Te1,udud),p(Te2,udud),p(Te3,udud),p(Te4,udud)
+what we need f(U1,uu),d(U1,uu),f(U2,uu),d(U2,uu),p(Te1,uu),p(Te2,uu),p(Te3,uu),p(Te4,uu),f(U1,dd),d(U1,dd),f(U2,dd),d(U2,dd),p(Te1,dd),p(Te2,dd),p(Te3,dd),p(Te4,dd)
+
+                f(U1,udud),f(U2,udud),d(U1,udud),d(U2,udud),p(Te1,udud),p(Te2,udud),p(Te3,udud),p(Te4,udud)
+ first : -----> f(U1,udud),d(U1,udud),f(U2,udud),d(U2,udud),p(Te1,udud),p(Te2,udud),p(Te3,udud),p(Te4,udud)
+second : -----> f(U1,uu),d(U1,uu),f(U2,uu),d(U2,uu),p(Te1,uu),p(Te2,uu),p(Te3,uu),p(Te4,uu),f(U1,dd),d(U1,dd),f(U2,dd),d(U2,dd),p(Te1,dd),p(Te2,dd),p(Te3,dd),p(Te4,dd)
