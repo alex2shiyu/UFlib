@@ -16,7 +16,7 @@ class KVec():
         self.kpt_type = kpt_type
         self.kbase = kbase
         self.rbase = np.array(rbase, dtype=np.float64)
-        if kbase == None and kpt_type != 'uni':
+        if isinstance(kbase,type(None)) and kpt_type != 'uni':
             self.kbase = np.zeros((3,3),dtype=np.float64)
             self.make_kbase(phase=False)
         else :
