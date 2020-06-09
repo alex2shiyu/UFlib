@@ -94,7 +94,7 @@ def write_oldgw_input(natom, ncorr, nelec, eigval, eigvec):
                     f.write(line)
             f.write("\n")
 
-def write_gw_input(natom, ncorr, nelec, eigval, eigvec):
+def write_gw_input(natom, ncorr, nelec_band, nelec_ncorr, eigval, eigvec):
     """
     preapare input files 'output.enk' and 'output.ovlp' for rtgw program
     
@@ -113,7 +113,8 @@ def write_gw_input(natom, ncorr, nelec, eigval, eigvec):
         f.write("{:10d}    :number of bands\n".format(nband))
         f.write("{:10d}    :number of correlated orbitals for each atom\n".format(ncorr))
         f.write("{:10d}    :number of correlated atoms in unit cell\n".format(natom))
-        f.write("{:10.5f}    :number of total electrons\n".format(nelec))
+        f.write("{:10.5f}    :number of total band electrons\n".format(nelec_band))
+        f.write("{:10.5f}    :number of total correlated electrons\n".format(nelec_ncorr))
         for i in range(nkpt):
             f.write("#ikpt  {:10d}\n".format(i+1))
             for j in range(nband):
