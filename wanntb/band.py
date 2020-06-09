@@ -48,7 +48,7 @@ class band():
         make quantity of high symmetry line
         '''
         print(">>> make high symmetry line ...")
-        self.symk = SymKVec(self.kbase,self.hsympkt)
+        self.symk = SymKVec(kbase=self.kbase,hsympkt=self.hsympkt)
         self.symk.from_hsymkpt(self.nkpt_pline)
         self.symk.get_klen()
         self.nhsympkt = len(self.hsympkt)
