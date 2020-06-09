@@ -2,17 +2,42 @@
 #read on 04/15/2018
 import numpy as np
 
+
+
 class KVec():
 
     """
     define K points in BZ, high symmetry line or uniform grid
     """
 
-    def __init__(self, kpt_type='uni', kbase=None, nkpt=None, kvec=None):
+    def __init__(self, kpt_type='uni', kbase=None, rbase = None, nkpt=None, kvec=None):
         self.nkpt = nkpt
-        self.kbase = np.array(kbase, dtype=np.float64)
         self.kvec = np.array(kvec, dtype=np.float64)
         self.kpt_type = kpt_type
+        self.kbase = kbase
+        self.rbase = np.array(rbase, dtype=np.float64)
+        if kbase == None and kpt_type != 'uni':
+            self.kbase = np.zeros((3,3),dtype=np.float64)
+            self.make_kbase(phase=False)
+        else :
+            self.kbase = np.array(kbase, dtype=np.float64)
+    
+
+    def make_kbase(self,phase=True):
+        '''
+        phase == True, the kbase is as same as the one defined in solid physics
+        phase == False, which will lack a phase of <2*pi>
+        '''
+        print(">>> make k-base ...")
+        v = np.dot(np.cross(self.rbase[0,:],self.rbase[1,:]),self.rbase[2,:])
+        if phase :
+            self.kbase[0,:] = np.cross(self.rbase[1,:],self.rbase[2,:]) *2* np.pi /v
+            self.kbase[1,:] = np.cross(self.rbase[2,:],self.rbase[0,:]) *2* np.pi /v
+            self.kbase[2,:] = np.cross(self.rbase[0,:],self.rbase[1,:]) *2* np.pi /v
+        else:
+            self.kbase[0,:] = np.cross(self.rbase[1,:],self.rbase[2,:])  /v
+            self.kbase[1,:] = np.cross(self.rbase[2,:],self.rbase[0,:])  /v
+            self.kbase[2,:] = np.cross(self.rbase[0,:],self.rbase[1,:])  /v
 
     def set_base(self,kbase):
         self.kbase = np.array(kbase, dtype=np.float64)
@@ -37,10 +62,10 @@ class SymKVec(KVec):
     K points in high symmetry line 
     """
 
-    def __init__(self, kbase=None, hsymkpt=None, klen=None):
+    def __init__(self, kbase=None, rbase=None, hsymkpt=None, klen=None):
         self.klen = np.array(klen, dtype=np.float64)
         self.hsymkpt = np.array(hsymkpt, dtype=np.float64)
-        KVec.__init__(self, 'sym', kbase)
+        KVec.__init__(self, 'sym', kbase, rbase)
 
     def get_klen(self):
         self.klen = np.zeros(self.nkpt, dtype=np.float64)          
