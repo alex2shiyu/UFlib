@@ -11,17 +11,17 @@ class band():
     draw band for HR instance
     '''
     
-    def __init__(self,nband,nkpt_pline,hsympkt,Rbase,efermi,hr,hr_mat):
+    def __init__(self,nband,nkpt_pline,hsymkpt,Rbase,efermi,hr,hr_mat):
         self.nband = nband
         self.nkpt_pline = nkpt_pline
-        self.hsympkt = hsympkt
+        self.hsymkpt = hsymkpt
         self.Rbase = Rbase
         self.efermi = efermi
         self.hr = hr
         self.hr_mat = hr_mat
         self.symk = None
         self.hk_sym = None
-        self.nhsympkt = 0
+        self.nhsymkpt = 0
 #       self.kbase = None
         self.kbase = np.zeros((3,3),np.float64)
         self.band_vec = None
@@ -48,10 +48,10 @@ class band():
         make quantity of high symmetry line
         '''
         print(">>> make high symmetry line ...")
-        self.symk = SymKVec(kbase=self.kbase,hsympkt=self.hsympkt)
+        self.symk = SymKVec(kbase=self.kbase,hsymkpt=self.hsymkpt)
         self.symk.from_hsymkpt(self.nkpt_pline)
         self.symk.get_klen()
-        self.nhsympkt = len(self.hsympkt)
+        self.nhsymkpt = len(self.hsymkpt)
 
     def make_Hk_band(self):
         '''
