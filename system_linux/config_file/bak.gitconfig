@@ -1,0 +1,37 @@
+[user]
+	name = chuangchen
+	email = 870159201@qq.com
+[core]
+    editor = vim
+[merge]
+	tool = icdiff
+[alias]
+    unstage = reset HEAD --
+    visual = !gitk
+    st = status
+    co = checkout
+    cm = commit
+    br = branch
+    lg = !"git lg1"
+    lg1 = !"git lg1-specific --all"
+    lg2 = !"git lg2-specific --all"
+    lg3 = !"git lg3-specific --all"
+
+    lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+    lg2-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+    lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+[color]
+    ui = true
+    status = auto
+    branch = auto
+    interactive = auto
+[clolr]
+    diff = auto
+[push]
+    default = matching
+[pull]
+	rebase = false
+[diff]
+	tool = icdiff
+[icdiff]
+	options = --highlight --line-numbers
