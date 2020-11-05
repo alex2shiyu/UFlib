@@ -118,16 +118,26 @@ class UniKVec(KVec):
         self.grid = grid
         KVec.__init__(self, 'uni')
 
-    def from_grid(self):
+    def from_grid(self,symm=True):
         nx,ny,nz = self.grid
         self.nkpt = nx * ny * nz
         self.kvec = np.zeros((self.nkpt, 3), dtype=np.float64)
         ikpt = 0
-        for i in range(nx):
-            kx = float(i)/float(nx)  
-            for j in range(ny):
-                ky = float(j)/float(ny)  
-                for k in range(nz):
-                    kz = float(k)/float(nz)  
-                    ikpt = ikpt + 1
-                    self.kvec[ikpt-1,:] = kx,ky,kz
+        if symm :
+            for i in range(nx):
+                kx = float(i)/float(nx)  
+                for j in range(ny):
+                    ky = float(j)/float(ny)  
+                    for k in range(nz):
+                        kz = float(k)/float(nz)  
+                        ikpt = ikpt + 1
+                        self.kvec[ikpt-1,:] = kx,ky,kz
+        else:
+            for i in range(nx):
+                kx = float(i+0.5)/float(nx)  
+                for j in range(ny):
+                    ky = float(j+0.5)/float(ny)  
+                    for k in range(nz):
+                        kz = float(k+0.5)/float(nz)  
+                        ikpt = ikpt + 1
+                        self.kvec[ikpt-1,:] = kx,ky,kz
