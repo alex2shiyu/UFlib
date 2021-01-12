@@ -1,6 +1,6 @@
 #!/bin/bash
-logdir=/public/home/sypeng/LOG/qs.dat
-searchdir=/public/home/sypeng/work
+logdir=$HOME/LOG/qs.dat
+searchdir=$HOME/work
 for ((i=1;i<81;i=i+1));
 do 
     echo -n '-' >> $logdir;
@@ -12,7 +12,7 @@ do
     echo -n '-' >> $logdir;
 done
 echo '' >> $logdir
-squeue -u sypeng | tee -a $logdir | more
+squeue -u $USR_NAME | tee -a $logdir | more
 for ((i=1;i<61;i=i+1));
 do 
     echo -n '-' ;
@@ -23,9 +23,9 @@ do
     echo -n '-' >> $logdir;
 done
 echo '' >> $logdir;
-#for id in \$(squeue -u sypeng | tail -n +2 | awk '{print \$1}');
-for id in $(squeue -u sypeng | tail -n +2 | awk '{print $1}');
-#xxlist=squeue -u sypeng | tail -n +2 | awk '{print \$1}'
+#for id in \$(squeue -u $USR_NAME | tail -n +2 | awk '{print \$1}');
+for id in $(squeue -u $USR_NAME | tail -n +2 | awk '{print $1}');
+#xxlist=squeue -u $USR_NAME | tail -n +2 | awk '{print \$1}'
 #for id in xxlist
 do 
     ssid='slurm-'"$id"'.out'
