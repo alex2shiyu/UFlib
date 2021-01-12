@@ -1,0 +1,3 @@
+
+alias sline="bash $HOME/UFlib/system_linux/func_myself/showline.sh"
+alias rm="bash $HOME/UFlib/system_linux/func_myself/xxyrm.sh"
