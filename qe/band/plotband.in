@@ -1,0 +1,6 @@
+NbMgO_nosoc_bands    !name of the input data file which is the output of bands.x
+-10 10         !lower and upper level of band in eV
+NbO.bands.gnu   !output image file (choose anything)
+NbO.bands.ps     !output image file (choose anything)
+9.0175         !Fermi level
+4 0     !DeltaE(interval between axis labels/ticks) and Fermi level offset (to set it as 0)

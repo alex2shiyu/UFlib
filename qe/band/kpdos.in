@@ -1,0 +1,9 @@
+&PROJWFC
+prefix = 'NbMgO'
+outdir = './tmp'
+ngauss = 1
+degauss= 0.05
+DeltaE = 0.01
+kresolveddos=.true.
+filproj = 'nbproj.k'
+/

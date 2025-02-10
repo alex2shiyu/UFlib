@@ -1,0 +1,23 @@
+
+plot_pyprocar.py: python plot_pyprocar.py
+
+If you would like to use projwfc.x, like:
+    srun -n 1 projwfc.x < kpdos.in > kpdos.out
+you need set the the number of points of the last high symmetry path more then one, like
+'''
+K_POINTS {crystal_b}
+4
+      0.0000     0.0000     0.0000  50 !G
+      0.3333    -0.3333     0.0000  50 !K
+      0.5000     0.0000     0.0000  50 !M
+      0.0000     0.0000     0.0000  50 !G
+'''
+rather than
+'''
+K_POINTS {crystal_b}
+4
+      0.0000     0.0000     0.0000  50 !G
+      0.3333    -0.3333     0.0000  50 !K
+      0.5000     0.0000     0.0000  50 !M
+      0.0000     0.0000     0.0000   1 !G
+'''
