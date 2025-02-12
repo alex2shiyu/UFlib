@@ -1,0 +1,20 @@
+
+execute steps:
+    1. make
+
+OR execute one by one
+
+    0. [good] cp ../../tdep-vasp/0_crystal/infile.ucposcar ../../tdep-vasp/0_crystal/infile.ssposcar ./
+    1. [good] tdep_parse_output --temperature 200 samples/*/vasprun.xml > out_1.dat
+    2. [good, do not use this one] cp ../../../../../jjz_epr/qe2pert-tdep/sto-v5-pbesol-tdep200-conf168-nosymmborn/infile.lotosplitting ./
+    
+       [good, use this one] tdep_read_lotosplitting_from_outcar ../../../tdep-vasp/1.3_vasp/OUTCAR > out_2.dat
+                 cp outfile.lotosplitting infile.lotosplitting
+           or
+                 cp ../../tdep-vasp/1.3_vasp/outfile.lotosplitting ./infile.lotosplitting
+    3. [good] extract_forceconstants -rc2 7.2 --polar> out_3.dat 
+    4. [good] cp outfile.forceconstant infile.forceconstant
+    5. [good] canonical_configuration --quantum --temperature 200 -n 2 > out_4.dat
+
+
+

@@ -1,0 +1,4 @@
+conda activate tdeptools
+ase_join_pw_ph ../scf/scf.out ../phonon/ph.out 
+tdep_parse_output  qe.json > out.dat
+cat infile.dielectric_tensor > infile.lotosplitting && cat infile.born_charges >> infile.lotosplitting

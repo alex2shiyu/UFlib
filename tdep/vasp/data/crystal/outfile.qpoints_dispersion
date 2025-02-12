@@ -1,0 +1,8 @@
+CUB                         ! Bravais lattice type
+  100                       ! Number of points on each path
+    5                       ! Number paths between special points
+GM  X                       ! Starting and ending special point
+X   M                       !
+M   GM                      !
+GM  R                       !
+R   M                       !

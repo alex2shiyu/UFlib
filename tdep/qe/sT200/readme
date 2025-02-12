@@ -1,0 +1,15 @@
+
+execute steps:
+    0. prepare ../data/crystal; ../data/input_demo; ../data/loto 
+    1. cd iter.0000; cp ../data/Makefile .; make debye
+    2. cd ..; edit tdepNVT.sh (line 8, 18, 19, 79); sbatch tdepNVT.sh
+    4. cp ../data/Makefile ./destination folder
+    5. [Optional] ln -sf ../iter.0006/samples ./samples_iter0006
+    6. cd destination folder; edit Makefile (nsample, temp, and `ln -sf` line); make
+
+
+data chain:
+
+iter.0000 (debye) -> iter.0001 -> iter.0002 -> iter.0003 -> ...
+
+

@@ -1,0 +1,17 @@
+infile.ucposcar: [original data] copied from tempo:~/data/copy_from_jjzhou/sto-v8-expsoc/qe2pert-tdep/sto-v5-pbesol-tdep200-conf168-nosymmborn/infile.ucposcar
+
+
+
+execute steps:
+
+    1. create supercell: generate_structure -d 4 4 4 > out.dat
+        [output] outfile.ssposcar
+    2. cp outfile.ssposcar infile.ssposcar
+    3. [Option] crystal_structure_info --printsymmetry > out_2.dat
+    4. [Option] cp outfile.qpoints_dispersion infile.qpoints_dispersion
+    5. [Option] edit infile.qpoints_dispersion to be what you expect, here we change the last point from M to X 
+
+    Comments: 
+    1. I actually didn't use step.3 &4 &5, because using either Labels (like outfile.qpoints_dispersion) or 
+       coordinates (like infile.qpoints_dispersion) does not really change the K-path in the pdf figures finally.
+       It seems that the tdep command has a bugs.

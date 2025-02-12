@@ -1,0 +1,5 @@
+
+execute steps:
+    1. sbatch job.sh
+    2. conda activate tdeptools
+    3. tdep_read_lotosplitting_from_outcar OUTCAR > out.dat_loto

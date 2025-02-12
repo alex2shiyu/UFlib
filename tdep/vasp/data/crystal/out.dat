@@ -1,0 +1,12 @@
+ ... read unitcell
+ ... built supercell
+  Supercellmatrix:
+  4 0 0
+  0 4 0
+  0 0 4
+          Filling ratio:     100.0000000 % of the ideal cube
+            a,b,c (Ang):      15.6001441      15.6001441      15.6001441
+ alpha,beta,gamma (deg):      90.0000000      90.0000000      90.0000000
+        number of atoms:          320
+ 
+ ... wrote supercell in VASP format

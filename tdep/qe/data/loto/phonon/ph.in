@@ -1,0 +1,13 @@
+Phonons on a uniform grid
+&inputph
+  verbosity='debug'
+  tr2_ph=1.0d-14
+  prefix='tio2'
+  ldisp=.true.
+  epsil=.true.
+  lqdir = .true.
+  outdir='./tmp'
+  fildyn  = 'tio2.dyn.xml'
+  fildvscf = 'dvscf'
+  nq1=4, nq2=4, nq3=6,
+/

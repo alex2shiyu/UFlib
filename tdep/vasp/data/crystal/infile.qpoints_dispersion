@@ -1,0 +1,8 @@
+CUSTOM                         ! Bravais lattice type
+  100                       ! Number of points on each path
+    5                       ! Number paths between special points
+0.0 0.0 0.0 0.5 0.0 0.0  GM    X                       ! Starting and ending special point
+0.5 0.0 0.0 0.5 0.5 0.0   X    M                       !
+0.5 0.5 0.0 0.0 0.0 0.0   M   GM                      !
+0.0 0.0 0.0 0.5 0.5 0.5  GM    R                       !
+0.5 0.5 0.5 0.5 0.0 0.0   R    X                       !

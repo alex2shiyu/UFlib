@@ -1,0 +1,39 @@
+ &control
+    calculation='scf'
+    restart_mode='from_scratch',
+    prefix='tio2'
+    pseudo_dir = '/home/sypeng/work/rutile-tio2/lda/pw-ph-wan/pp'
+    tprnfor = .true. 
+    tstress = .true.
+    outdir='./tmp'
+    verbosity='high'
+ /
+ &system
+    ibrav = 6,
+    celldm(1) = 8.5863878208726
+    celldm(3) = 0.6421103844645087
+    nat = 6,
+    ntyp = 2,
+    ecutwfc = 80.0 
+ /
+ &electrons
+    conv_thr =  1.d-10
+    electron_maxstep = 200
+ /
+&ions
+/
+&cell 
+/
+ATOMIC_SPECIES
+  Ti    47.867  Ti.upf
+  O     15.999  O.upf  
+ATOMIC_POSITIONS {crystal}
+Ti            0.5000000000        0.5000000000        0.5000000000
+Ti            0.0000000000        0.0000000000       -0.0000000000
+O             0.8039977660        0.1960022340        0.5000000000
+O             0.1960022340        0.8039977660        0.5000000000
+O             0.3039977660        0.3039977660       -0.0000000000
+O             0.6960022340        0.6960022340       -0.0000000000
+K_POINTS {automatic}
+ 8 8 12 0 0 0
+

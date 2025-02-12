@@ -1,0 +1,42 @@
+System=tdep
+
+ISTART   = 0
+ICHARG = 2
+ENCUT=600
+PREC=Accurate
+#LSORBIT=.TRUE.
+LWAVE=.FALSE.
+LREAL=Auto
+
+EDIFF=1E-6
+EDIFFG=-0.01
+
+ISIF=2
+NSW=0
+POTIM=0.2
+ISMEAR=0
+#IBRION=2
+#LEPSILON=.TRUE.
+
+#parallel
+LPLANE = .TRUE.
+#NPAR = 8
+#NCORE  = 8
+#LSCALU = .FALSE.
+#NSIM   = 4
+
+#PBE-sol
+#GGA=PS
+
+LORBIT=11
+#LVTOT=.TRUE.
+
+##van der Waals 
+#LUSE_VDW=.TURE.
+#AGGAC=0.0000
+##
+#GGA = MK
+#PARAM1 = 0.1234
+#PARAM2 = 1.0000
+
+#LSORBIT=T

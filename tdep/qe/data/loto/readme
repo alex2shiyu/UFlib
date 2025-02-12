@@ -1,0 +1,9 @@
+phonon: [good] we calculate it here once again, because ase_join_pw_ph does not support multiple ph.out files 
+merge_pw_ph: [good]  
+
+
+steps: 
+    1. scf 
+    2. cp -r scf/tmp ./phonon
+    3. phonon
+    4. merge_pw_ph

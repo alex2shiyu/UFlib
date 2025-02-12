@@ -1,0 +1,15 @@
+infile.ucposcar: [original data] made here 
+
+
+
+execute steps:
+
+    1. create supercell: generate_structure -d 4 4 4 > out.dat # if you want qe output format, please use '-of 8' 
+           # but actually infile.ssposcar should be the format of vasp even you use qe for later dft engine
+        [output] outfile.ssposcar
+    2. cp outfile.ssposcar infile.ssposcar
+    3. [Option] crystal_structure_info --printsymmetry > out_2.dat
+    4. [Option] cp outfile.qpoints_dispersion infile.qpoints_dispersion
+    5. [Option] edit infile.qpoints_dispersion to be what you expect, here we change the last point from M to X 
+
+    1. I actually didn't use step.3 &4 &5

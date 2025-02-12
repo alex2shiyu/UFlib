@@ -1,0 +1,36 @@
+&CONTROL
+  prefix = 'si'
+  calculation = 'scf'
+  wf_collect = .true.
+  outdir='./tmp'
+  pseudo_dir='/home/sypeng/work/Perturbo-tutorial/perturbo-examples-light/example01-silicon-qe2pert/pw-ph-wann/pseudo/'
+  tprnfor = .true.
+  tstress = .true.
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 128
+  ntyp = 1
+  ecutwfc = 40.0
+/
+&ELECTRONS
+  conv_thr = 1.0d-13
+  mixing_mode = 'plain'
+  mixing_beta = 0.7
+  diagonalization = 'david'
+  diago_full_acc = .true.
+  electron_maxstep = 200
+/
+&IONS
+/
+&CELL
+press_conv_thr = 0.01
+/
+ATOMIC_SPECIES
+  Si   28.085  Si_DOJO_PBEsol.upf
+K_POINTS gamma
+CELL_PARAMETERS angstrom
+    -10.86300000000000      0.00000000000000     10.86300000000000 
+      0.00000000000000     10.86300000000000     10.86300000000000 
+    -10.86300000000000     10.86300000000000      0.00000000000000 
