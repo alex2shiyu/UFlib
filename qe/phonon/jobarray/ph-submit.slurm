@@ -86,8 +86,8 @@ for ((iQ=$Qstart; iQ<=$Qend; iQ++)); do
     cd $DIR
 
 
-   #cp ../ph-ref.in  ./ph.in
-    cp /global/cfs/cdirs/m2626/sypeng/work/fesb2/PBE-PM-QE-Finalone/pw-ph-wann-alm-U3.0/5-phonon-222/ph-$NQ/ph.in ./
+    cp ../ph-ref.in  ./ph.in
+   #cp /global/cfs/cdirs/m2626/sypeng/work/fesb2/PBE-PM-QE-Finalone/pw-ph-wann-alm-U3.0/5-phonon-222/ph-$NQ/ph.in ./
     sed -i   "s|.*prefix.*|  prefix='${PREFIX}'|g"      ph.in
     sed -i   "s|.*fildyn.*|  fildyn='${PREFIX}.dyn.xml'|g"  ph.in
     sed -i   "s|.*start_q.*|  start_q= ${iQ}|g"  ph.in
