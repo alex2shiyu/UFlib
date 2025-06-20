@@ -1,0 +1,18 @@
+Phonons on a uniform grid
+&inputph
+  verbosity='debug'
+  tr2_ph=1.0d-14
+  prefix='fesb2'
+  alpha_mix(1) = 0.1
+  nmix_ph = 20
+  ldisp=.true.
+  lqdir=.true.
+  epsil = .true.
+  outdir='./tmp'
+  fildyn  = 'fesb2.dyn.xml'
+  fildvscf = 'dvscf'
+  nq1=3, nq2=3, nq3=3,
+  nk1=9, nk2=9, nk3=9
+  start_q=1
+  last_q=1
+/
