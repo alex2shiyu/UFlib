@@ -1,0 +1,21 @@
+&general
+  PREFIX = diamond_prim555
+  MODE   = RTA
+  FCSXML = ../iter.0002_fitting/diamond_prim555_cubic.xml
+
+  NKD = 1; KD = C
+  MASS = 12.011
+/
+
+&cell
+   1.88973 # factor in Bohr unit
+     0.0000000000000000    1.7735000000000005    1.7735000000000005
+     1.7735000000000005    0.0000000000000000    1.7735000000000005
+     1.7735000000000005    1.7735000000000005    0.0000000000000000
+/
+
+&kpoint
+  2  # KPMODE = 2: uniform mesh mode
+  20 20 20
+/
+

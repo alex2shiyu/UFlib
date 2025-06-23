@@ -1,0 +1,6 @@
+
+
+how to create the supercell:
+    1. module load  tdep/20241201_commitID.ee5c2b6/intel21.7_mvapich2-2.3.7
+    2. prepare infile.ucposcar
+    3. generate_structure -d 5 5 5 > out.dat

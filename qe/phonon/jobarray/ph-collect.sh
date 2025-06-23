@@ -24,11 +24,11 @@ do
    cp ${q_folder}/${PREFIX}.dyn* ./
 
    #copy dvscf files
-   #cp ${DIR}/${PREFIX}.q_${NQ}/${PREFIX}.dvscf1 save/${PREFIX}.dvscf_q${NQ}
+   cp ${DIR}/${PREFIX}.q_${NQ}/${PREFIX}.dvscf1 save/${PREFIX}.dvscf_q${NQ}
    #copy prefix.d2nsbare  prefix.dnsbare  prefix.dnsbare_pattern  prefix.dnsscf  prefix.dvscf1
    #write a loop to copy all files with suffix .d2nsbare, .dnsbare, .dnsbare_pattern, .dnsscf, .dvscf1,
    #before copying, check if the file exists
-   for suffix in d2nsbare dnsbare dnsbare_pattern dnsscf dvscf1; do
+   for suffix in d2nsbare dnsbare dnsbare_pattern dnsscf; do
        filename=${DIR}/${PREFIX}.q_${NQ}/${PREFIX}.${suffix}
        if [ -f "$filename" ]; then
            cp "$filename" save/${PREFIX}.${suffix}_q${NQ}
