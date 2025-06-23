@@ -1,0 +1,49 @@
+&CONTROL
+  prefix = 'fesb2'
+  calculation = 'scf'
+  wf_collect = .true.
+  outdir='./tmp'
+  pseudo_dir='/global/cfs/cdirs/m2626/sypeng/work/fesb2/PBE-PM-QE/pw-ph-wann-alm/0-data/'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 6
+  nbnd = 64
+  ntyp = 2
+  ecutwfc = 120
+  ecutrho = 960
+  smearing = 'mv'
+  degauss = 0.003
+  occupations = 'smearing'
+/
+
+&ELECTRONS
+  conv_thr = 1.0d-14
+  mixing_mode = 'plain'
+  mixing_beta = 0.5
+  diagonalization = 'david'
+  diago_full_acc = .true.
+  electron_maxstep = 300
+  exx_maxstep = 300
+/
+&IONS
+/
+&CELL
+press_conv_thr = 0.1
+/
+ATOMIC_SPECIES
+  Fe   55.845  Fe-PBE.upf
+  Sb  121.760  Sb-PBE.upf
+CELL_PARAMETERS bohr
+   11.055657831022305    0.00000000000000   0.000000000000000
+    0.000000000000000   12.34046621109572   0.000000000000000
+    0.000000000000000    0.00000000000000   5.991916619489667 
+ATOMIC_POSITIONS crystal
+Fe            0.0000000000        0.0000000000       -0.0000000000
+Fe            0.5000000000        0.5000000000        0.5000000000
+Sb            0.1903758598        0.3539792222       -0.0000000000
+Sb            0.8096241402        0.6460207778       -0.0000000000
+Sb            0.3096241402        0.8539792222        0.5000000000
+Sb            0.6903758598        0.1460207778        0.5000000000
+K_POINTS (automatic)
+ 24 24 24 0 0 0
