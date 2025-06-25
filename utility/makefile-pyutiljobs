@@ -1,0 +1,25 @@
+# Makefile to run GutzPy Python script
+
+# Default target
+all: run
+
+# Target to activate Conda environment and run the Python script
+run:
+	@echo "Loading module GutzPy/240822, activating Conda environment, and making inputs for Gutzaria..."
+	@module load GutzPy/240822 && \
+	source /home/sypeng/soft/Anaconda3-2023.09-install/etc/profile.d/conda.sh && conda activate GutzPy && \
+	python ~/soft/GutzPy/GutzPy-240822/GutzPy/pyUtil/pyUtil_src/pyUtil_main.py > out.dat
+
+#write a clean target to remove all output files
+clean:
+	@echo "Cleaning up output files..."
+	@rm -f atom2020.*.in
+	@rm -f DensityMatOnebody*
+	@rm -f HamR0*
+	@rm -f out.dat
+	@rm -f output*
+	@rm -f Umat2natural*
+
+.PHONY: all run
+
+

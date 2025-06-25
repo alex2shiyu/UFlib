@@ -1,0 +1,17 @@
+# Makefile to run GutzPy Python script
+
+# Default target
+all: run
+
+# Target to activate Conda environment and run the Python script
+run:
+	@echo "Loading module GutzPy/240822, activating Conda environment, and running the script..."
+	@module load GutzPy/240822 && \
+	source /home/sypeng/soft/Anaconda3-2023.09-install/etc/profile.d/conda.sh && conda activate GutzPy && \
+	python ~/soft/GutzPy/GutzPy-240822/GutzPy/pyUtil/pyUtil_src/pyUtil_main.py > out.dat
+	@echo "enter check_band folder for plotting bands..."
+	@cd check_band && python band_plot.py > out.dat && cd ..
+
+.PHONY: all run
+
+

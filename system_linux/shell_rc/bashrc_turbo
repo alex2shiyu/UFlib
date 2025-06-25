@@ -1,0 +1,103 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+
+#UFlib
+alias rm="bash $HOME/soft/UFlib/system_linux/func_myself/xxyrm.sh"
+alias rmrm="/usr/bin/rm -rf"
+alias qstatt="bash $HOME/soft/UFlib/system_linux/func_myself/qstatjob.sh"
+alias sline="bash $HOME/soft/UFlib/system_linux/func_myself/showline.sh"
+alias sint="salloc -N 1 -p regular -t 48:00:00"
+alias cpfiles='bash /home/sypeng/soft/UFlib/system_linux/func_myself/copy_files_only.sh'
+
+export PATH=/home/sypeng/soft/UFlib/vasp/band:$PATH
+export PATH=/home/sypeng/soft/grace-install/grace/bin:$PATH
+export PATH=$HOME/soft/vp2band:$PATH
+
+#requirement of tmux by https://github.com/gpakosz/.tmux
+export TERM="xterm-256color"
+export EDITOR="vim"
+
+#for tdep
+alias gnuplot='gnuplot -persist'
+
+# customize modulefiles
+module use --append /home/sypeng/soft/Modules/intel
+module use --append /home/sypeng/soft/Modules/compilers
+module use --append /home/sypeng/soft/Modules/apps /home/sypeng/soft/Modules/libraries 
+module use --append /home/sypeng/soft/Modules/temperary
+#module use --append /home/sypeng/soft/intel/install/24.2.1/modulefiles
+
+# use my own anaconda
+#module purge
+#module delete conda/2022.10
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/sypeng/soft/Anaconda3-2023.09-install/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/sypeng/soft/Anaconda3-2023.09-install/etc/profile.d/conda.sh" ]; then
+        . "/home/sypeng/soft/Anaconda3-2023.09-install/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/sypeng/soft/Anaconda3-2023.09-install/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+#
+# It's very important to keep the following line after conda initialization, or the mpi in mvapich2 will be overwritten by the one in anaconda
+module load PrgEnv/intel 
+module load xcrysden/1.5.60 intel/2021.7.1 htop/3.2.1 mvapich2/2.3.7-1-intel-2021.7.1 
+module load mkl/2022.2.1 hdf5/1.12.2-intel gnuplot/5.4.5
+
+#module purge
+#module load wien2k/24.1/gcc-8.5.0-intelmpi21.7.1-libxc-5.2.3-elpa-20240814
+
+#node.js
+export PATH="/home/sypeng/soft/node-install/20.10.0-binary/bin:$PATH"
+export LIBRARY_PATH="/home/sypeng/soft/node-install/20.10.0-binary/lib:$LIBRARY_PATH"
+export LD_LIBRARY_PATH="/home/sypeng/soft/node-install/20.10.0-binary/lib:$LD_LIBRARY_PATH"
+export CPATH="/home/sypeng/soft/node-install/20.10.0-binary/include:$CPATH"
+
+# easybuild for fortran packages install
+#export PATH=/home/sypeng/soft/Anaconda3-2023.09-install/bin/eb:$PATH
+
+# fpm: fortran package manager
+export PATH=/home/sypeng/soft/fpm/0.10.0:$PATH
+
+# pertool, migrated to module
+#export PYTHONPATH=/home/sypeng/soft/pertool/pertool:$PYTHONPATH
+export PATH="/home/sypeng/soft/vim-install/bin:$PATH"
+
+## tcsh
+#export PATH="/home/sypeng/soft/tcsh/install/6.24/bin:$PATH"
+
+# autoconf
+export PATH="/home/sypeng/soft/autoconf/install/2.72/bin:$PATH"
+
+alias phdir="/home/sypeng/soft/qe-7.2/perturbo-dev-phph-final/qe2pert-src"
+
+export XDG_CONFIG_HOME=/home/sypeng/configure/gh
+
+export WIENROOT=/home/sypeng/soft/wien2k/src/WIEN2k_24.1_gcc_intelmpi-21.7.1-libxc-5.2.3-elpa-20240814
+export WIEN_DMFT_ROOT=/home/sypeng/soft/edmft/install/20240817-intel
+export SCRATCH="."
+export PATH=$PATH:$WIENROOT:$WIEN_DMFT_ROOT
+export PYTHONPATH=$PYTHONPATH:$WIEN_DMFT_ROOT
