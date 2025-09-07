@@ -16,8 +16,8 @@ do
    #cp ph-${NQ}/${PREFIX}.dyn${NQ} save/  #${PREFIX}.dyn_q${NQ}
    cp ${PREFIX}.dyn* save/
    #copy dvscf files
-   cp ${DIR}/${PREFIX}.q_${NQ}/${PREFIX}.dvscf save/${PREFIX}.dvscf_q${NQ}
+   cp ${DIR}/${PREFIX}.q_${NQ}/${PREFIX}.dvscf1 save/${PREFIX}.dvscf_q${NQ}
 done
 
 NQ=1
-cp ${DIR}/${PREFIX}.dvscf save/${PREFIX}.dvscf_q${NQ}
+cp ${DIR}/${PREFIX}.dvscf1 save/${PREFIX}.dvscf_q${NQ}
