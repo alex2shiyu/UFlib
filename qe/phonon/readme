@@ -1,0 +1,5 @@
+
+qe_dynxml2dyn.py: [very good] convert dynamic XML to conventional dynamic format for Quantum ESPRESSO
+                     which will be used in SSCHA.
+
+jobarray/ph-collect.sh: [very good] apply to both regular DFPT and DFPT+U calculations
