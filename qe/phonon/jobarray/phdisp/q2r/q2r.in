@@ -1,0 +1,5 @@
+&INPUT                                                                                                                             
+  fildyn = 'fesb2.dyn.xml'                                                                                                         
+  zasr = 'crystal'                                                                                                                 
+  flfrc = 'fesb2.fc'                                                                                                               
+/
