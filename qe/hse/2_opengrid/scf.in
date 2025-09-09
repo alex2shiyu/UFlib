@@ -1,0 +1,41 @@
+&CONTROL
+  prefix = 'ge'
+  calculation = 'scf'
+  outdir='./tmp'
+  pseudo_dir='../pseudo'
+  !verbosity='high'
+/
+&SYSTEM
+  ibrav = 2
+  celldm(1) = 10.69 !10.6656142
+  nat = 2
+  ntyp = 1
+  ecutwfc = 110
+  ecutfock = 220
+  noncolin = .true.
+  lspinorb = .true.
+  nbnd= 64
+  nqx1 = 4,
+  nqx2 = 4,
+  nqx3 = 4,
+  input_dft = 'hse'
+/
+&ELECTRONS
+  conv_thr_init = 1.0d-7
+  conv_thr = 1.0d-11
+  diagonalization = 'david'
+  diago_full_acc = .true.
+  adaptive_thr = .true.
+/
+&IONS
+/
+&CELL
+  press_conv_thr = 0.01
+/
+ATOMIC_SPECIES
+  Ge   72.640  Ge_DOJO_LDA_high_nocc_FR.upf
+ATOMIC_POSITIONS crystal
+Ge  0.00000000  0.00000000  0.00000000
+Ge -0.25000000  0.75000000 -0.25000000
+K_POINTS (automatic)
+ 8 8 8 0 0 0

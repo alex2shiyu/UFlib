@@ -1,0 +1,46 @@
+    &control
+    calculation = 'scf',
+    prefix = 'LCO',
+    pseudo_dir = "/global/homes/b/bkchang/pseudo",
+    outdir = "./temp_dir",
+    tstress = .true.
+    tprnfor = .true.
+    wf_collect = .true.
+    nstep = 2000,
+    /
+
+    &system
+    ibrav = 0
+    nat = 112
+    ntyp = 4
+    ecutwfc = 65
+    ecutrho = 520
+    occupations = 'smearing'
+    smearing = 'gaussian'
+    degauss = 0.001
+    nspin = 2 
+    starting_magnetization(1) =  0.5
+    starting_magnetization(2) = -0.5
+    lda_plus_u = .true.
+    lda_plus_u_kind = 0 
+    U_projection_type = 'atomic'
+    Hubbard_U(1) = 10.00
+    Hubbard_U(2) = 10.00
+    /
+
+    &electrons
+    conv_thr = 1.0D-6
+    mixing_beta = 0.5
+    electron_maxstep = 2000
+    diagonalization = 'cg'
+    /
+
+    ATOMIC_SPECIES
+      Cu1   63.54600    cu_pbesol_v1.2.uspp.F.UPF
+      Cu2   63.54600    cu_pbesol_v1.2.uspp.F.UPF
+      La   138.90547    la_pbesol_v1.uspp.F.UPF 
+      O     15.99940    o_pbesol_v1.2.uspp.F.UPF
+
+    K_POINTS (automatic)
+     1 1 1 0 0 0
+

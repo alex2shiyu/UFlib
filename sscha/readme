@@ -1,0 +1,8 @@
+
+Step:
+    0. read patch
+    1. prepare the data
+    2. submit jobs
+	    1-sscha-generate.py  
+	    2-config-submit-gpu-nersc.slurm
+        ...

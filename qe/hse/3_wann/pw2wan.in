@@ -1,0 +1,14 @@
+&inputpp
+  outdir='./tmp'
+  prefix = 'ge'
+  seedname = 'ge'
+  spin_component = 'none'
+  write_mmn = .true.
+  write_amn = .true.
+  write_spn = .true.
+  !write_unk = .true.
+  spn_formatted = .false.
+/
+
+
+

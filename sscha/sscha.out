@@ -1,0 +1,1695 @@
+DYN CHANGED BY: 0.0
+Time elapsed to prepare the rho update: 0.007908105850219727 s
+ (of which to diagonalize and prepare the structure: 0.0016 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0063 s)
+(of which to update the weights): 0.01017904281616211 s
+ | to copy the dynamical matrix: 0.00014710426330566406 s
+DYN CHANGED BY: 2.4147350785597384e-15
+Time elapsed to prepare the rho update: 0.007771015167236328 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0065 s)
+(of which to update the weights): 0.010349273681640625 s
+ | to copy the dynamical matrix: 0.00012540817260742188 s
+ [GRADIENT] Time to prepare the gradient calculation: 0.08215212821960449 s
+ [GRADIENT] Time to call the fortran code: 0.1831345558166504 s
+ [GRADIENT] Time to get back in fourier space: 0.5541715621948242 s
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  1
+ [GRADIENT] Time to prepare the gradient calculation: 0.08130478858947754 s
+ [GRADIENT] Time to call the fortran code: 0.16254138946533203 s
+ [GRADIENT] Time to get back in fourier space: 0.6067044734954834 s
+Time elapsed to symmetrize the gradient: 0.11969733238220215 s
+DYN CHANGED BY: 0.002493314697125326
+Time elapsed to prepare the rho update: 0.007871627807617188 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0065 s)
+(of which to update the weights): 0.010757684707641602 s
+ | to copy the dynamical matrix: 0.00012564659118652344 s
+Time elapsed to perform the minimization step: 1.1899604797363281 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.59683352 meV
+Anharmonic contribution to free energy = -20066470.93576627 +-       0.88883054 meV
+Free energy = -20065908.33893275 +-       0.88883054 meV
+FC gradient modulus =    3275.87147425 +-    3331.57168208 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  146.41250871515285
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  2
+ [GRADIENT] Time to prepare the gradient calculation: 0.08020138740539551 s
+ [GRADIENT] Time to call the fortran code: 0.13380932807922363 s
+ [GRADIENT] Time to get back in fourier space: 0.6517982482910156 s
+Time elapsed to symmetrize the gradient: 0.13020706176757812 s
+Step too large (scalar = 0.034682061480784815 | kl_ratio = 0.585650034860611), reducing to 0.06551853485625
+DYN CHANGED BY: 0.0003152036852424045
+Time elapsed to prepare the rho update: 0.007849454879760742 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0065 s)
+(of which to update the weights): 0.010445833206176758 s
+ | to copy the dynamical matrix: 0.00012803077697753906 s
+Time elapsed to perform the minimization step: 1.2166259288787842 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.07393849 meV
+Anharmonic contribution to free energy = -20066469.50626987 +-       0.90833255 meV
+Free energy = -20065907.43233138 +-       0.90833255 meV
+FC gradient modulus =    2246.73179842 +-    3155.63769156 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  160.17612617398157
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  3
+ [GRADIENT] Time to prepare the gradient calculation: 0.08075165748596191 s
+ [GRADIENT] Time to call the fortran code: 0.16236019134521484 s
+ [GRADIENT] Time to get back in fourier space: 0.6861612796783447 s
+Time elapsed to symmetrize the gradient: 0.11910605430603027 s
+Step too large (scalar = 0.0367480086518961 | kl_ratio = 0.6407045046959259), reducing to 0.05723571212946195
+DYN CHANGED BY: 0.0002753557818455654
+Time elapsed to prepare the rho update: 0.008375406265258789 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0069 s)
+(of which to update the weights): 0.011203289031982422 s
+ | to copy the dynamical matrix: 0.00013971328735351562 s
+Time elapsed to perform the minimization step: 1.2864141464233398 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.60614072 meV
+Anharmonic contribution to free energy = -20066468.12684092 +-       0.93136880 meV
+Free energy = -20065906.52070019 +-       0.93136880 meV
+FC gradient modulus =    2315.79140654 +-    3093.18007799 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  173.05686603852635
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  4
+ [GRADIENT] Time to prepare the gradient calculation: 0.0816812515258789 s
+ [GRADIENT] Time to call the fortran code: 0.13479161262512207 s
+ [GRADIENT] Time to get back in fourier space: 0.636268138885498 s
+Time elapsed to symmetrize the gradient: 0.12397980690002441 s
+Step too large (scalar = 0.038705102819129256 | kl_ratio = 0.692227464154105), reducing to 0.05000000000235258
+DYN CHANGED BY: 0.0002405454318752387
+Time elapsed to prepare the rho update: 0.007587909698486328 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0062 s)
+(of which to update the weights): 0.010668754577636719 s
+ | to copy the dynamical matrix: 0.00013256072998046875 s
+Time elapsed to perform the minimization step: 1.2058227062225342 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.18840961 meV
+Anharmonic contribution to free energy = -20066466.80590687 +-       0.95982918 meV
+Free energy = -20065905.61749726 +-       0.95982918 meV
+FC gradient modulus =    2385.54370188 +-    3048.21989737 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  184.86098010043096
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  5
+ [GRADIENT] Time to prepare the gradient calculation: 0.081573486328125 s
+ [GRADIENT] Time to call the fortran code: 0.16207361221313477 s
+ [GRADIENT] Time to get back in fourier space: 0.693073034286499 s
+Time elapsed to symmetrize the gradient: 0.1170051097869873 s
+Step too large (scalar = 0.040547123548638195 | kl_ratio = 0.7394439204017235), reducing to 0.043679023239555165
+DYN CHANGED BY: 0.00021013579017181705
+Time elapsed to prepare the rho update: 0.008252620697021484 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.012584686279296875 s
+ | to copy the dynamical matrix: 0.00014972686767578125 s
+Time elapsed to perform the minimization step: 1.2797560691833496 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.81605304 meV
+Anharmonic contribution to free energy = -20066465.55106383 +-       0.99081407 meV
+Free energy = -20065904.73501079 +-       0.99081407 meV
+FC gradient modulus =    2454.84724613 +-    3018.19440843 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  195.46770363158285
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  6
+ [GRADIENT] Time to prepare the gradient calculation: 0.08196401596069336 s
+ [GRADIENT] Time to call the fortran code: 0.1453714370727539 s
+ [GRADIENT] Time to get back in fourier space: 0.6153061389923096 s
+Time elapsed to symmetrize the gradient: 0.11238741874694824 s
+Step too large (scalar = 0.04226924121662332 | kl_ratio = 0.7818708145263309), reducing to 0.03815714142143665
+DYN CHANGED BY: 0.00018357052123896267
+Time elapsed to prepare the rho update: 0.007963418960571289 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0067 s)
+(of which to update the weights): 0.010361909866333008 s
+ | to copy the dynamical matrix: 0.0001232624053955078 s
+Time elapsed to perform the minimization step: 1.1752891540527344 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.48471040 meV
+Anharmonic contribution to free energy = -20066464.36852781 +-       1.02413802 meV
+Free energy = -20065903.88381742 +-       1.02413802 meV
+FC gradient modulus =    2522.71649109 +-    3000.73580458 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  204.82487504142026
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  7
+ [GRADIENT] Time to prepare the gradient calculation: 0.07982182502746582 s
+ [GRADIENT] Time to call the fortran code: 0.19623780250549316 s
+ [GRADIENT] Time to get back in fourier space: 0.7056107521057129 s
+Time elapsed to symmetrize the gradient: 0.10365438461303711 s
+Step too large (scalar = 0.043868529745375986 | kl_ratio = 0.8192995001656804), reducing to 0.0333333333364701
+DYN CHANGED BY: 0.0001603636212579307
+Time elapsed to prepare the rho update: 0.008031129837036133 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0066 s)
+(of which to update the weights): 0.009517431259155273 s
+ | to copy the dynamical matrix: 0.00011944770812988281 s
+Time elapsed to perform the minimization step: 1.3081011772155762 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.19034433 meV
+Anharmonic contribution to free energy = -20066463.26279182 +-       1.05953815 meV
+Free energy = -20065903.07244748 +-       1.05953815 meV
+FC gradient modulus =    2588.33071935 +-    2993.65857364 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  212.93997094338494
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  8
+ [GRADIENT] Time to prepare the gradient calculation: 0.07721686363220215 s
+ [GRADIENT] Time to call the fortran code: 0.13385343551635742 s
+ [GRADIENT] Time to get back in fourier space: 0.6512737274169922 s
+Time elapsed to symmetrize the gradient: 0.10765647888183594 s
+Step too large (scalar = 0.04534418385727218 | kl_ratio = 0.8517598837735392), reducing to 0.029119348827740216
+DYN CHANGED BY: 0.00014009052678776168
+Time elapsed to prepare the rho update: 0.0076482295989990234 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0064 s)
+(of which to update the weights): 0.00962686538696289 s
+ | to copy the dynamical matrix: 0.00011301040649414062 s
+Time elapsed to perform the minimization step: 1.182023286819458 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     559.92923105 meV
+Anharmonic contribution to free energy = -20066462.23649426 +-       1.09567164 meV
+Free energy = -20065902.30726321 +-       1.09567164 meV
+FC gradient modulus =    2651.03995607 +-    2994.95846837 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  219.86813312339567
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  9
+ [GRADIENT] Time to prepare the gradient calculation: 0.07920074462890625 s
+ [GRADIENT] Time to call the fortran code: 0.19713902473449707 s
+ [GRADIENT] Time to get back in fourier space: 0.6859586238861084 s
+Time elapsed to symmetrize the gradient: 0.10642528533935547 s
+Step too large (scalar = 0.04669748829227192 | kl_ratio = 0.8794725324935821), reducing to 0.025438094282154666
+DYN CHANGED BY: 0.00012238034749834092
+Time elapsed to prepare the rho update: 0.008033514022827148 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0067 s)
+(of which to update the weights): 0.00953221321105957 s
+ | to copy the dynamical matrix: 0.00011205673217773438 s
+Time elapsed to perform the minimization step: 1.277256965637207 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     559.69794914 meV
+Anharmonic contribution to free energy = -20066461.29046793 +-       1.13175749 meV
+Free energy = -20065901.59251880 +-       1.13175749 meV
+FC gradient modulus =    2710.36204304 +-    3002.81981009 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  225.69888569391665
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  10
+ [GRADIENT] Time to prepare the gradient calculation: 0.07807040214538574 s
+ [GRADIENT] Time to call the fortran code: 0.13385844230651855 s
+ [GRADIENT] Time to get back in fourier space: 0.6778535842895508 s
+Time elapsed to symmetrize the gradient: 0.11355781555175781 s
+Good step found with 0.025438094282154666, try increment
+DYN CHANGED BY: 1.352066369898563e-08
+Time elapsed to prepare the rho update: 0.007443428039550781 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0061 s)
+(of which to update the weights): 0.009655475616455078 s
+ | to copy the dynamical matrix: 0.00012922286987304688 s
+Time elapsed to perform the minimization step: 1.2140660285949707 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     559.69794914 meV
+Anharmonic contribution to free energy = -20066461.29046793 +-       1.13175749 meV
+Free energy = -20065901.59251880 +-       1.13175749 meV
+FC gradient modulus =    2765.97090562 +-    3015.62600868 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  225.69888569391665
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  11
+ [GRADIENT] Time to prepare the gradient calculation: 0.08039593696594238 s
+ [GRADIENT] Time to call the fortran code: 0.13599252700805664 s
+ [GRADIENT] Time to get back in fourier space: 0.6324076652526855 s
+Time elapsed to symmetrize the gradient: 0.11281490325927734 s
+DYN CHANGED BY: 0.000921544338942315
+Time elapsed to prepare the rho update: 0.008397579193115234 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0070 s)
+(of which to update the weights): 0.009734392166137695 s
+ | to copy the dynamical matrix: 0.00011277198791503906 s
+Time elapsed to perform the minimization step: 1.1859500408172607 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.66487158 meV
+Anharmonic contribution to free energy = -20066468.14965655 +-       0.93720637 meV
+Free energy = -20065906.48478497 +-       0.93720637 meV
+FC gradient modulus =    2765.97090562 +-    3015.62600868 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  173.80734665170186
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  12
+ [GRADIENT] Time to prepare the gradient calculation: 0.0800771713256836 s
+ [GRADIENT] Time to call the fortran code: 0.13414287567138672 s
+ [GRADIENT] Time to get back in fourier space: 0.6383416652679443 s
+Time elapsed to symmetrize the gradient: 0.11229276657104492 s
+Step too large (scalar = 0.03486339748576694 | kl_ratio = 0.7700850897749317), reducing to 0.03333333333803848
+DYN CHANGED BY: 0.00011650120704120859
+Time elapsed to prepare the rho update: 0.0076253414154052734 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0065 s)
+(of which to update the weights): 0.009654760360717773 s
+ | to copy the dynamical matrix: 0.00011229515075683594 s
+Time elapsed to perform the minimization step: 1.1837775707244873 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.42672664 meV
+Anharmonic contribution to free energy = -20066467.41928163 +-       0.95197236 meV
+Free energy = -20065905.99255499 +-       0.95197236 meV
+FC gradient modulus =    2382.10739516 +-    3040.28897434 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  180.27963098388244
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  13
+ [GRADIENT] Time to prepare the gradient calculation: 0.07982659339904785 s
+ [GRADIENT] Time to call the fortran code: 0.18892431259155273 s
+ [GRADIENT] Time to get back in fourier space: 0.627781867980957 s
+Time elapsed to symmetrize the gradient: 0.11201620101928711 s
+Step too large (scalar = 0.035602016776058704 | kl_ratio = 0.7987617237435992), reducing to 0.029119348829110322
+DYN CHANGED BY: 0.00010177317859094703
+Time elapsed to prepare the rho update: 0.008237838745117188 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.009609699249267578 s
+ | to copy the dynamical matrix: 0.00012874603271484375 s
+Time elapsed to perform the minimization step: 1.2274527549743652 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.21641256 meV
+Anharmonic contribution to free energy = -20066466.75316402 +-       0.96558728 meV
+Free energy = -20065905.53675147 +-       0.96558728 meV
+FC gradient modulus =    2421.27370720 +-    3023.72297873 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  186.02940907392644
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  14
+ [GRADIENT] Time to prepare the gradient calculation: 0.07999587059020996 s
+ [GRADIENT] Time to call the fortran code: 0.134505033493042 s
+ [GRADIENT] Time to get back in fourier space: 0.6179840564727783 s
+Time elapsed to symmetrize the gradient: 0.11235761642456055 s
+Step too large (scalar = 0.036264458830468665 | kl_ratio = 0.8242371622791781), reducing to 0.025438094283351562
+DYN CHANGED BY: 8.890706065295406e-05
+Time elapsed to prepare the rho update: 0.007527828216552734 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0063 s)
+(of which to update the weights): 0.009543657302856445 s
+ | to copy the dynamical matrix: 0.00011420249938964844 s
+Time elapsed to perform the minimization step: 1.1628658771514893 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.03088567 meV
+Anharmonic contribution to free energy = -20066466.14849627 +-       0.97992571 meV
+Free energy = -20065905.11761059 +-       0.97992571 meV
+FC gradient modulus =    2457.39439684 +-    3011.69589548 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  191.10799995795335
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  15
+ [GRADIENT] Time to prepare the gradient calculation: 0.07978034019470215 s
+ [GRADIENT] Time to call the fortran code: 0.19241690635681152 s
+ [GRADIENT] Time to get back in fourier space: 0.6789994239807129 s
+Time elapsed to symmetrize the gradient: 0.11241745948791504 s
+Step too large (scalar = 0.036856780567560136 | kl_ratio = 0.8467387837134739), reducing to 0.022222222226404575
+DYN CHANGED BY: 7.766747136461749e-05
+Time elapsed to prepare the rho update: 0.008265256881713867 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0069 s)
+(of which to update the weights): 0.009712934494018555 s
+ | to copy the dynamical matrix: 0.00011849403381347656 s
+Time elapsed to perform the minimization step: 1.2776947021484375 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.86739333 meV
+Anharmonic contribution to free energy = -20066465.60196590 +-       0.99405734 meV
+Free energy = -20065904.73457257 +-       0.99405734 meV
+FC gradient modulus =    2490.49464061 +-    3003.25327064 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  195.57286903804226
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  16
+ [GRADIENT] Time to prepare the gradient calculation: 0.08004522323608398 s
+ [GRADIENT] Time to call the fortran code: 0.13428092002868652 s
+ [GRADIENT] Time to get back in fourier space: 0.6667625904083252 s
+Time elapsed to symmetrize the gradient: 0.11281728744506836 s
+Step too large (scalar = 0.03738495062128033 | kl_ratio = 0.86652119897158), reducing to 0.019412899220320287
+DYN CHANGED BY: 6.784878573051767e-05
+Time elapsed to prepare the rho update: 0.007578372955322266 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0062 s)
+(of which to update the weights): 0.009585380554199219 s
+ | to copy the dynamical matrix: 0.00011730194091796875 s
+Time elapsed to perform the minimization step: 1.2088732719421387 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.72345410 meV
+Anharmonic contribution to free energy = -20066465.10990945 +-       1.00701470 meV
+Free energy = -20065904.38645535 +-       1.00701470 meV
+FC gradient modulus =    2520.65578014 +-    2997.60272214 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  199.48365623019558
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  17
+ [GRADIENT] Time to prepare the gradient calculation: 0.0798637866973877 s
+ [GRADIENT] Time to call the fortran code: 0.19898557662963867 s
+ [GRADIENT] Time to get back in fourier space: 0.7156927585601807 s
+Time elapsed to symmetrize the gradient: 0.11183452606201172 s
+Step too large (scalar = 0.03785475533850344 | kl_ratio = 0.8838486535583827), reducing to 0.016958729523032307
+DYN CHANGED BY: 5.927137377126357e-05
+Time elapsed to prepare the rho update: 0.00821375846862793 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0070 s)
+(of which to update the weights): 0.009708404541015625 s
+ | to copy the dynamical matrix: 0.00012159347534179688 s
+Time elapsed to perform the minimization step: 1.3218207359313965 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.59683780 meV
+Anharmonic contribution to free energy = -20066464.66845525 +-       1.01954438 meV
+Free energy = -20065904.07161745 +-       1.01954438 meV
+FC gradient modulus =    2548.00107533 +-    2994.09395597 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  202.89928279946466
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  18
+ [GRADIENT] Time to prepare the gradient calculation: 0.07889556884765625 s
+ [GRADIENT] Time to call the fortran code: 0.13389301300048828 s
+ [GRADIENT] Time to get back in fourier space: 0.6391198635101318 s
+Time elapsed to symmetrize the gradient: 0.11115288734436035 s
+Step too large (scalar = 0.03827172436571075 | kl_ratio = 0.8989822088649039), reducing to 0.014814814818300107
+DYN CHANGED BY: 5.177831424552082e-05
+Time elapsed to prepare the rho update: 0.007809162139892578 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0064 s)
+(of which to update the weights): 0.009548425674438477 s
+ | to copy the dynamical matrix: 0.00011229515075683594 s
+Time elapsed to perform the minimization step: 1.17848801612854 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.48554576 meV
+Anharmonic contribution to free energy = -20066464.27364782 +-       1.03040457 meV
+Free energy = -20065903.78810205 +-       1.03040457 meV
+FC gradient modulus =    2572.68327670 +-    2992.19963694 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  205.87598320158344
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  19
+ [GRADIENT] Time to prepare the gradient calculation: 0.07963991165161133 s
+ [GRADIENT] Time to call the fortran code: 0.18845772743225098 s
+ [GRADIENT] Time to get back in fourier space: 0.6888067722320557 s
+Time elapsed to symmetrize the gradient: 0.11176276206970215 s
+Good step found with 0.014814814818300107, try increment
+DYN CHANGED BY: 1.3520681700804246e-08
+Time elapsed to prepare the rho update: 0.00822591781616211 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0070 s)
+(of which to update the weights): 0.009543657302856445 s
+ | to copy the dynamical matrix: 0.00011801719665527344 s
+Time elapsed to perform the minimization step: 1.283653736114502 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     560.48554576 meV
+Anharmonic contribution to free energy = -20066464.27364782 +-       1.03040457 meV
+Free energy = -20065903.78810205 +-       1.03040457 meV
+FC gradient modulus =    2594.87411374 +-    2991.49738908 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  205.87598320158344
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  20
+ [GRADIENT] Time to prepare the gradient calculation: 0.08015155792236328 s
+ [GRADIENT] Time to call the fortran code: 0.13517379760742188 s
+ [GRADIENT] Time to get back in fourier space: 0.6306910514831543 s
+Time elapsed to symmetrize the gradient: 0.10450220108032227 s
+DYN CHANGED BY: 0.0004601588742892959
+Time elapsed to prepare the rho update: 0.008464336395263672 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0072 s)
+(of which to update the weights): 0.009342193603515625 s
+ | to copy the dynamical matrix: 0.00012922286987304688 s
+Time elapsed to perform the minimization step: 1.1587233543395996 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.53485136 meV
+Anharmonic contribution to free energy = -20066467.70546185 +-       0.94707594 meV
+Free energy = -20065906.17061049 +-       0.94707594 meV
+FC gradient modulus =    2594.87411374 +-    2991.49738908 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  178.06018872417002
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  21
+ [GRADIENT] Time to prepare the gradient calculation: 0.07882881164550781 s
+ [GRADIENT] Time to call the fortran code: 0.21674704551696777 s
+ [GRADIENT] Time to get back in fourier space: 0.6902267932891846 s
+Time elapsed to symmetrize the gradient: 0.11816883087158203 s
+Step too large (scalar = 0.033539664830634176 | kl_ratio = 0.8648905324222419), reducing to 0.019412899221233692
+DYN CHANGED BY: 5.817307102884417e-05
+Time elapsed to prepare the rho update: 0.00814509391784668 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.010671377182006836 s
+ | to copy the dynamical matrix: 0.00012373924255371094 s
+Time elapsed to perform the minimization step: 1.3254468441009521 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.40513886 meV
+Anharmonic contribution to free energy = -20066467.30769808 +-       0.95525389 meV
+Free energy = -20065905.90255922 +-       0.95525389 meV
+FC gradient modulus =    2405.45600107 +-    3027.97900350 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  181.51172594032153
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  22
+ [GRADIENT] Time to prepare the gradient calculation: 0.08060455322265625 s
+ [GRADIENT] Time to call the fortran code: 0.13381052017211914 s
+ [GRADIENT] Time to get back in fourier space: 0.6837146282196045 s
+Time elapsed to symmetrize the gradient: 0.1148674488067627 s
+Step too large (scalar = 0.03388243831122129 | kl_ratio = 0.881655660449691), reducing to 0.016958729523830242
+DYN CHANGED BY: 5.081885842483924e-05
+Time elapsed to prepare the rho update: 0.007625102996826172 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0063 s)
+(of which to update the weights): 0.010839700698852539 s
+ | to copy the dynamical matrix: 0.00012874603271484375 s
+Time elapsed to perform the minimization step: 1.2315969467163086 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.29116019 meV
+Anharmonic contribution to free energy = -20066466.95229596 +-       0.96280541 meV
+Free energy = -20065905.66113577 +-       0.96280541 meV
+FC gradient modulus =    2427.05067266 +-    3020.01838692 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  184.55145799788406
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  23
+ [GRADIENT] Time to prepare the gradient calculation: 0.08654594421386719 s
+ [GRADIENT] Time to call the fortran code: 0.1341722011566162 s
+ [GRADIENT] Time to get back in fourier space: 0.6264960765838623 s
+Time elapsed to symmetrize the gradient: 0.11695146560668945 s
+Step too large (scalar = 0.034185412897178614 | kl_ratio = 0.8964205301071011), reducing to 0.014814814818997168
+DYN CHANGED BY: 4.4394361961797024e-05
+Time elapsed to prepare the rho update: 0.007543802261352539 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0062 s)
+(of which to update the weights): 0.010697603225708008 s
+ | to copy the dynamical matrix: 0.00013113021850585938 s
+Time elapsed to perform the minimization step: 1.2012948989868164 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.19107354 meV
+Anharmonic contribution to free energy = -20066466.63557800 +-       0.96937626 meV
+Free energy = -20065905.44450445 +-       0.96937626 meV
+FC gradient modulus =    2446.43074861 +-    3013.76015345 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  187.22309401353428
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  24
+ [GRADIENT] Time to prepare the gradient calculation: 0.08024740219116211 s
+ [GRADIENT] Time to call the fortran code: 0.13393664360046387 s
+ [GRADIENT] Time to get back in fourier space: 0.6191434860229492 s
+Time elapsed to symmetrize the gradient: 0.11522817611694336 s
+Good step found with 0.014814814818997168, try increment
+DYN CHANGED BY: 1.3520659965777927e-08
+Time elapsed to prepare the rho update: 0.007871389389038086 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0065 s)
+(of which to update the weights): 0.010517120361328125 s
+ | to copy the dynamical matrix: 0.00012922286987304688 s
+Time elapsed to perform the minimization step: 1.184906244277954 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.19107354 meV
+Anharmonic contribution to free energy = -20066466.63557800 +-       0.96937626 meV
+Free energy = -20065905.44450445 +-       0.96937626 meV
+FC gradient modulus =    2463.76705679 +-    3008.85311749 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  187.22309401353428
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  25
+ [GRADIENT] Time to prepare the gradient calculation: 0.08051109313964844 s
+ [GRADIENT] Time to call the fortran code: 0.22287654876708984 s
+ [GRADIENT] Time to get back in fourier space: 0.6866466999053955 s
+Time elapsed to symmetrize the gradient: 0.11601972579956055 s
+DYN CHANGED BY: 0.00039946383953831655
+Time elapsed to prepare the rho update: 0.008156776428222656 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.010410070419311523 s
+ | to copy the dynamical matrix: 0.0001430511474609375 s
+Time elapsed to perform the minimization step: 1.326582908630371 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.14511268 meV
+Anharmonic contribution to free energy = -20066469.45135757 +-       0.91890173 meV
+Free energy = -20065907.30624489 +-       0.91890173 meV
+FC gradient modulus =    2463.76705679 +-    3008.85311749 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  162.66666916676095
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  26
+ [GRADIENT] Time to prepare the gradient calculation: 0.08080911636352539 s
+ [GRADIENT] Time to call the fortran code: 0.13438868522644043 s
+ [GRADIENT] Time to get back in fourier space: 0.654578447341919 s
+Time elapsed to symmetrize the gradient: 0.11836624145507812 s
+Step too large (scalar = 0.03063767630740432 | kl_ratio = 0.8688386976181572), reducing to 0.019412899222147097
+DYN CHANGED BY: 5.050003294365668e-05
+Time elapsed to prepare the rho update: 0.007470130920410156 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0061 s)
+(of which to update the weights): 0.01070094108581543 s
+ | to copy the dynamical matrix: 0.00013756752014160156 s
+Time elapsed to perform the minimization step: 1.2138209342956543 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.02680078 meV
+Anharmonic contribution to free energy = -20066469.12074319 +-       0.92278551 meV
+Free energy = -20065907.09394241 +-       0.92278551 meV
+FC gradient modulus =    2311.17889994 +-    3073.41663478 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  165.6576194560127
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  27
+ [GRADIENT] Time to prepare the gradient calculation: 0.08338046073913574 s
+ [GRADIENT] Time to call the fortran code: 0.17232203483581543 s
+ [GRADIENT] Time to get back in fourier space: 0.6916337013244629 s
+Time elapsed to symmetrize the gradient: 0.11456179618835449 s
+Step too large (scalar = 0.03090114417768226 | kl_ratio = 0.8848140253682453), reducing to 0.016958729524628173
+DYN CHANGED BY: 4.411584224861542e-05
+Time elapsed to prepare the rho update: 0.00803828239440918 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0067 s)
+(of which to update the weights): 0.010639667510986328 s
+ | to copy the dynamical matrix: 0.00012350082397460938 s
+Time elapsed to perform the minimization step: 1.2820477485656738 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.92292334 meV
+Anharmonic contribution to free energy = -20066468.82633514 +-       0.92684597 meV
+Free energy = -20065906.90341179 +-       0.92684597 meV
+FC gradient modulus =    2328.88694542 +-    3063.17010311 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  168.3008575181226
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  28
+ [GRADIENT] Time to prepare the gradient calculation: 0.08077454566955566 s
+ [GRADIENT] Time to call the fortran code: 0.13414549827575684 s
+ [GRADIENT] Time to get back in fourier space: 0.6529030799865723 s
+Time elapsed to symmetrize the gradient: 0.1153404712677002 s
+Step too large (scalar = 0.03113329690691892 | kl_ratio = 0.8989321451228457), reducing to 0.014814814819694225
+DYN CHANGED BY: 3.853873797454721e-05
+Time elapsed to prepare the rho update: 0.007615804672241211 s
+ (of which to diagonalize and prepare the structure: 0.0015 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0061 s)
+(of which to update the weights): 0.01061391830444336 s
+ | to copy the dynamical matrix: 0.00012373924255371094 s
+Time elapsed to perform the minimization step: 1.2038729190826416 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.83177245 meV
+Anharmonic contribution to free energy = -20066468.56474823 +-       0.93184869 meV
+Free energy = -20065906.73297578 +-       0.93184869 meV
+FC gradient modulus =    2344.70654402 +-    3054.66277487 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  170.6321709937019
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  29
+ [GRADIENT] Time to prepare the gradient calculation: 0.08081507682800293 s
+ [GRADIENT] Time to call the fortran code: 0.17014575004577637 s
+ [GRADIENT] Time to get back in fourier space: 0.6103823184967041 s
+Time elapsed to symmetrize the gradient: 0.10771584510803223 s
+Good step found with 0.014814814819694225, try increment
+DYN CHANGED BY: 1.352061362228467e-08
+Time elapsed to prepare the rho update: 0.008617162704467773 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0073 s)
+(of which to update the weights): 0.00968623161315918 s
+ | to copy the dynamical matrix: 0.00013375282287597656 s
+Time elapsed to perform the minimization step: 1.1857078075408936 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     561.83177245 meV
+Anharmonic contribution to free energy = -20066468.56474823 +-       0.93184869 meV
+Free energy = -20065906.73297578 +-       0.93184869 meV
+FC gradient modulus =    2358.80112611 +-    3047.58463659 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  170.6321709937019
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  30
+ [GRADIENT] Time to prepare the gradient calculation: 0.0783236026763916 s
+ [GRADIENT] Time to call the fortran code: 0.13414692878723145 s
+ [GRADIENT] Time to get back in fourier space: 0.6465842723846436 s
+Time elapsed to symmetrize the gradient: 0.10648202896118164 s
+DYN CHANGED BY: 0.00035407000173055814
+Time elapsed to prepare the rho update: 0.007951498031616211 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0066 s)
+(of which to update the weights): 0.009458065032958984 s
+ | to copy the dynamical matrix: 0.0001266002655029297 s
+Time elapsed to perform the minimization step: 1.1746022701263428 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.70829919 meV
+Anharmonic contribution to free energy = -20066470.93474112 +-       0.89923125 meV
+Free energy = -20065908.22644193 +-       0.89923125 meV
+FC gradient modulus =    2358.80112611 +-    3047.58463659 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  149.27543880603528
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  31
+ [GRADIENT] Time to prepare the gradient calculation: 0.07795596122741699 s
+ [GRADIENT] Time to call the fortran code: 0.18020296096801758 s
+ [GRADIENT] Time to get back in fourier space: 0.6142480373382568 s
+Time elapsed to symmetrize the gradient: 0.11168646812438965 s
+Step too large (scalar = 0.02834732344206633 | kl_ratio = 0.8748375991274535), reducing to 0.0194128992230605
+DYN CHANGED BY: 4.476136506476047e-05
+Time elapsed to prepare the rho update: 0.008092641830444336 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.009406328201293945 s
+ | to copy the dynamical matrix: 0.00011229515075683594 s
+Time elapsed to perform the minimization step: 1.213860273361206 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.59933648 meV
+Anharmonic contribution to free energy = -20066470.65345583 +-       0.90220916 meV
+Free energy = -20065908.05411935 +-       0.90220916 meV
+FC gradient modulus =    2231.57992656 +-    3126.78441803 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  151.85612233701184
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  32
+ [GRADIENT] Time to prepare the gradient calculation: 0.07961678504943848 s
+ [GRADIENT] Time to call the fortran code: 0.1338644027709961 s
+ [GRADIENT] Time to get back in fourier space: 0.6258118152618408 s
+Time elapsed to symmetrize the gradient: 0.1112205982208252 s
+Step too large (scalar = 0.028558337733976747 | kl_ratio = 0.889961848651723), reducing to 0.016958729525426104
+DYN CHANGED BY: 3.910265409611674e-05
+Time elapsed to prepare the rho update: 0.007456064224243164 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0061 s)
+(of which to update the weights): 0.009542703628540039 s
+ | to copy the dynamical matrix: 0.00010848045349121094 s
+Time elapsed to perform the minimization step: 1.1653859615325928 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.50372655 meV
+Anharmonic contribution to free energy = -20066470.40367201 +-       0.90517727 meV
+Free energy = -20065907.89994546 +-       0.90517727 meV
+FC gradient modulus =    2246.55648015 +-    3115.38988792 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  154.14005945582906
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  33
+ [GRADIENT] Time to prepare the gradient calculation: 0.08000802993774414 s
+ [GRADIENT] Time to call the fortran code: 0.19606852531433105 s
+ [GRADIENT] Time to get back in fourier space: 0.688084602355957 s
+Time elapsed to symmetrize the gradient: 0.10732603073120117 s
+Good step found with 0.016958729525426104, try increment
+DYN CHANGED BY: 1.3520544011768993e-08
+Time elapsed to prepare the rho update: 0.007961511611938477 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.009354114532470703 s
+ | to copy the dynamical matrix: 0.00011467933654785156 s
+Time elapsed to perform the minimization step: 1.298119068145752 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     562.50372655 meV
+Anharmonic contribution to free energy = -20066470.40367201 +-       0.90517727 meV
+Free energy = -20065907.89994546 +-       0.90517727 meV
+FC gradient modulus =    2259.88684075 +-    3105.73617145 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  154.14005945582906
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  34
+ [GRADIENT] Time to prepare the gradient calculation: 0.09612011909484863 s
+ [GRADIENT] Time to call the fortran code: 0.13406801223754883 s
+ [GRADIENT] Time to get back in fourier space: 0.6152369976043701 s
+Time elapsed to symmetrize the gradient: 0.11341738700866699 s
+DYN CHANGED BY: 0.00039285335979149377
+Time elapsed to prepare the rho update: 0.008430004119873047 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0072 s)
+(of which to update the weights): 0.009503841400146484 s
+ | to copy the dynamical matrix: 0.00011515617370605469 s
+Time elapsed to perform the minimization step: 1.177330493927002 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.42097426 meV
+Anharmonic contribution to free energy = -20066472.66801657 +-       0.88621136 meV
+Free energy = -20065909.24704230 +-       0.88621136 meV
+FC gradient modulus =    2259.88684075 +-    3105.73617145 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  133.5670653408295
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  35
+ [GRADIENT] Time to prepare the gradient calculation: 0.08120083808898926 s
+ [GRADIENT] Time to call the fortran code: 0.13393282890319824 s
+ [GRADIENT] Time to get back in fourier space: 0.6526656150817871 s
+Time elapsed to symmetrize the gradient: 0.11437106132507324 s
+Step too large (scalar = 0.02602783436117243 | kl_ratio = 0.8665305165469003), reducing to 0.022222222230586924
+DYN CHANGED BY: 4.9664339166262395e-05
+Time elapsed to prepare the rho update: 0.008446931838989258 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0072 s)
+(of which to update the weights): 0.009556293487548828 s
+ | to copy the dynamical matrix: 0.00012493133544921875 s
+Time elapsed to perform the minimization step: 1.201176643371582 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.30693326 meV
+Anharmonic contribution to free energy = -20066472.39845190 +-       0.88842814 meV
+Free energy = -20065909.09151864 +-       0.88842814 meV
+FC gradient modulus =    2138.77398343 +-    3207.05403672 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  136.02526905543044
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  36
+ [GRADIENT] Time to prepare the gradient calculation: 0.08008885383605957 s
+ [GRADIENT] Time to call the fortran code: 0.13379216194152832 s
+ [GRADIENT] Time to get back in fourier space: 0.6418673992156982 s
+Time elapsed to symmetrize the gradient: 0.11439871788024902 s
+Step too large (scalar = 0.026221665684203296 | kl_ratio = 0.8824783741205857), reducing to 0.019412899223973906
+DYN CHANGED BY: 4.338579649034585e-05
+Time elapsed to prepare the rho update: 0.008672237396240234 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0073 s)
+(of which to update the weights): 0.009711027145385742 s
+ | to copy the dynamical matrix: 0.00014090538024902344 s
+Time elapsed to perform the minimization step: 1.1971869468688965 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.20687106 meV
+Anharmonic contribution to free energy = -20066472.15928259 +-       0.88802549 meV
+Free energy = -20065908.95241153 +-       0.88802549 meV
+FC gradient modulus =    2153.10093726 +-    3193.06908062 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  138.20678286193498
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  37
+ [GRADIENT] Time to prepare the gradient calculation: 0.0816795825958252 s
+ [GRADIENT] Time to call the fortran code: 0.17879915237426758 s
+ [GRADIENT] Time to get back in fourier space: 0.690424919128418 s
+Time elapsed to symmetrize the gradient: 0.11228394508361816 s
+Step too large (scalar = 0.026391774698144715 | kl_ratio = 0.8966311765407099), reducing to 0.01695872952622404
+DYN CHANGED BY: 3.790098426159627e-05
+Time elapsed to prepare the rho update: 0.008083820343017578 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.009105920791625977 s
+ | to copy the dynamical matrix: 0.00011730194091796875 s
+Time elapsed to perform the minimization step: 1.2811832427978516 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.11911920 meV
+Anharmonic contribution to free energy = -20066471.94745336 +-       0.89063940 meV
+Free energy = -20065908.82833416 +-       0.89063940 meV
+FC gradient modulus =    2165.83716142 +-    3181.11013021 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  140.13846975811333
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  38
+ [GRADIENT] Time to prepare the gradient calculation: 0.08028244972229004 s
+ [GRADIENT] Time to call the fortran code: 0.13430094718933105 s
+ [GRADIENT] Time to get back in fourier space: 0.6574292182922363 s
+Time elapsed to symmetrize the gradient: 0.11528897285461426 s
+Good step found with 0.01695872952622404, try increment
+DYN CHANGED BY: 1.3520464947011257e-08
+Time elapsed to prepare the rho update: 0.008723735809326172 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0074 s)
+(of which to update the weights): 0.010175228118896484 s
+ | to copy the dynamical matrix: 0.00013256072998046875 s
+Time elapsed to perform the minimization step: 1.2121384143829346 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.11911920 meV
+Anharmonic contribution to free energy = -20066471.94745336 +-       0.89063940 meV
+Free energy = -20065908.82833416 +-       0.89063940 meV
+FC gradient modulus =    2177.13540321 +-    3170.86625412 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  140.13846975811333
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  39
+ [GRADIENT] Time to prepare the gradient calculation: 0.09867477416992188 s
+ [GRADIENT] Time to call the fortran code: 0.13436222076416016 s
+ [GRADIENT] Time to get back in fourier space: 0.6261086463928223 s
+Time elapsed to symmetrize the gradient: 0.1290128231048584 s
+DYN CHANGED BY: 0.0003802845591510673
+Time elapsed to prepare the rho update: 0.010268688201904297 s
+ (of which to diagonalize and prepare the structure: 0.0017 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0086 s)
+(of which to update the weights): 0.009770631790161133 s
+ | to copy the dynamical matrix: 0.00014090538024902344 s
+Time elapsed to perform the minimization step: 1.208200454711914 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.96711257 meV
+Anharmonic contribution to free energy = -20066473.89983962 +-       0.88135543 meV
+Free energy = -20065909.93272705 +-       0.88135543 meV
+FC gradient modulus =    2177.13540321 +-    3170.86625412 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  122.64455599612153
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  40
+ [GRADIENT] Time to prepare the gradient calculation: 0.08721804618835449 s
+ [GRADIENT] Time to call the fortran code: 0.13403940200805664 s
+ [GRADIENT] Time to get back in fourier space: 0.6257321834564209 s
+Time elapsed to symmetrize the gradient: 0.10531425476074219 s
+Step too large (scalar = 0.024309990458190215 | kl_ratio = 0.8751669417242298), reducing to 0.02222222223163251
+DYN CHANGED BY: 4.8075397230618044e-05
+Time elapsed to prepare the rho update: 0.007723808288574219 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0063 s)
+(of which to update the weights): 0.009253740310668945 s
+ | to copy the dynamical matrix: 0.0001239776611328125 s
+Time elapsed to perform the minimization step: 1.1570990085601807 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.86148343 meV
+Anharmonic contribution to free energy = -20066473.66523519 +-       0.88176110 meV
+Free energy = -20065909.80375175 +-       0.88176110 meV
+FC gradient modulus =    2072.26539622 +-    3275.39308704 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  124.73397154794122
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  41
+ [GRADIENT] Time to prepare the gradient calculation: 0.0771484375 s
+ [GRADIENT] Time to call the fortran code: 0.1336376667022705 s
+ [GRADIENT] Time to get back in fourier space: 0.669398307800293 s
+Time elapsed to symmetrize the gradient: 0.1152498722076416 s
+Step too large (scalar = 0.02447193554072551 | kl_ratio = 0.8900765918397631), reducing to 0.01941289922488731
+DYN CHANGED BY: 4.199772785578454e-05
+Time elapsed to prepare the rho update: 0.00767064094543457 s
+ (of which to diagonalize and prepare the structure: 0.0012 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0064 s)
+(of which to update the weights): 0.009083032608032227 s
+ | to copy the dynamical matrix: 0.00011467933654785156 s
+Time elapsed to perform the minimization step: 1.2143101692199707 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.76884674 meV
+Anharmonic contribution to free energy = -20066473.45757876 +-       0.88216660 meV
+Free energy = -20065909.68873202 +-       0.88216660 meV
+FC gradient modulus =    2084.81612118 +-    3261.34967467 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  126.58797446828653
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  42
+ [GRADIENT] Time to prepare the gradient calculation: 0.08084464073181152 s
+ [GRADIENT] Time to call the fortran code: 0.1335301399230957 s
+ [GRADIENT] Time to get back in fourier space: 0.6550290584564209 s
+Time elapsed to symmetrize the gradient: 0.1137545108795166 s
+Good step found with 0.01941289922488731, try increment
+DYN CHANGED BY: 1.3520370369819818e-08
+Time elapsed to prepare the rho update: 0.008114814758300781 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0068 s)
+(of which to update the weights): 0.009207963943481445 s
+ | to copy the dynamical matrix: 0.00011706352233886719 s
+Time elapsed to perform the minimization step: 1.2035772800445557 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     563.76884674 meV
+Anharmonic contribution to free energy = -20066473.45757876 +-       0.88216660 meV
+Free energy = -20065909.68873202 +-       0.88216660 meV
+FC gradient modulus =    2095.94016374 +-    3249.26621381 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  126.58797446828653
+
+Check the stopping criteria: Running =  True
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  43
+ [GRADIENT] Time to prepare the gradient calculation: 0.11623907089233398 s
+ [GRADIENT] Time to call the fortran code: 0.18564462661743164 s
+ [GRADIENT] Time to get back in fourier space: 0.7011737823486328 s
+Time elapsed to symmetrize the gradient: 0.11462235450744629 s
+DYN CHANGED BY: 0.00041892768146190723
+Time elapsed to prepare the rho update: 0.007848024368286133 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0064 s)
+(of which to update the weights): 0.00948190689086914 s
+ | to copy the dynamical matrix: 0.00012826919555664062 s
+Time elapsed to perform the minimization step: 1.335287094116211 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     564.66112197 meV
+Anharmonic contribution to free energy = -20066475.37169544 +-       0.88094962 meV
+Free energy = -20065910.71057347 +-       0.88094962 meV
+FC gradient modulus =    2095.94016374 +-    3249.26621381 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  110.00869350302825
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  44
+ [GRADIENT] Time to prepare the gradient calculation: 0.08027958869934082 s
+ [GRADIENT] Time to call the fortran code: 0.1340467929840088 s
+ [GRADIENT] Time to get back in fourier space: 0.6373968124389648 s
+Time elapsed to symmetrize the gradient: 0.11704373359680176 s
+Step too large (scalar = 0.0224945071848675 | kl_ratio = 0.8690295738209176), reducing to 0.025438094290532953
+DYN CHANGED BY: 5.296064279376733e-05
+Time elapsed to prepare the rho update: 0.0072040557861328125 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0058 s)
+(of which to update the weights): 0.009556055068969727 s
+ | to copy the dynamical matrix: 0.00010776519775390625 s
+Time elapsed to perform the minimization step: 1.1867752075195312 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     564.54998662 meV
+Anharmonic contribution to free energy = -20066475.14100733 +-       0.87769586 meV
+Free energy = -20065910.59102071 +-       0.87769586 meV
+FC gradient modulus =    1992.08090249 +-    3369.95505323 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  111.97432492607507
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  45
+ [GRADIENT] Time to prepare the gradient calculation: 0.08081746101379395 s
+ [GRADIENT] Time to call the fortran code: 0.18282055854797363 s
+ [GRADIENT] Time to get back in fourier space: 0.6176197528839111 s
+Time elapsed to symmetrize the gradient: 0.11426854133605957 s
+Step too large (scalar = 0.02264990208807551 | kl_ratio = 0.8845573633388647), reducing to 0.0222222222326781
+DYN CHANGED BY: 4.626538294528332e-05
+Time elapsed to prepare the rho update: 0.008370161056518555 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0070 s)
+(of which to update the weights): 0.008857488632202148 s
+ | to copy the dynamical matrix: 0.00012731552124023438 s
+Time elapsed to perform the minimization step: 1.24214768409729 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     564.45251884 meV
+Anharmonic contribution to free energy = -20066474.93698144 +-       0.87891742 meV
+Free energy = -20065910.48446260 +-       0.87891742 meV
+FC gradient modulus =    2004.56020919 +-    3353.94795174 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  113.72175462537115
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  46
+ [GRADIENT] Time to prepare the gradient calculation: 0.08061933517456055 s
+ [GRADIENT] Time to call the fortran code: 0.13394474983215332 s
+ [GRADIENT] Time to get back in fourier space: 0.6533598899841309 s
+Time elapsed to symmetrize the gradient: 0.11116743087768555 s
+Step too large (scalar = 0.022785849164953444 | kl_ratio = 0.8983614368034722), reducing to 0.019412899225800716
+DYN CHANGED BY: 4.0416534735139564e-05
+Time elapsed to prepare the rho update: 0.0075299739837646484 s
+ (of which to diagonalize and prepare the structure: 0.0013 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0062 s)
+(of which to update the weights): 0.009429454803466797 s
+ | to copy the dynamical matrix: 0.0001232624053955078 s
+Time elapsed to perform the minimization step: 1.1952006816864014 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     564.36707731 meV
+Anharmonic contribution to free energy = -20066474.75678530 +-       0.87851041 meV
+Free energy = -20065910.38970799 +-       0.87851041 meV
+FC gradient modulus =    2015.61014004 +-    3340.13203998 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  115.27159549188096
+
+Check the stopping criteria: Running =  True
+
+ # ---------------- NEW MINIMIZATION STEP --------------------
+Step ka =  47
+ [GRADIENT] Time to prepare the gradient calculation: 0.0812675952911377 s
+ [GRADIENT] Time to call the fortran code: 0.23526763916015625 s
+ [GRADIENT] Time to get back in fourier space: 0.6113364696502686 s
+Time elapsed to symmetrize the gradient: 0.11329293251037598 s
+Good step found with 0.019412899225800716, try increment
+DYN CHANGED BY: 1.3520276178190908e-08
+Time elapsed to prepare the rho update: 0.008101224899291992 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0067 s)
+(of which to update the weights): 0.0093536376953125 s
+ | to copy the dynamical matrix: 0.00011706352233886719 s
+Time elapsed to perform the minimization step: 1.281686782836914 s
+
+
+Number of symmetries before the step:  4
+Harmonic contribution to free energy =     564.36707731 meV
+Anharmonic contribution to free energy = -20066474.75678530 +-       0.87851041 meV
+Free energy = -20065910.38970799 +-       0.87851041 meV
+FC gradient modulus =    2025.37802030 +-    3328.19379644 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  115.27159549188096
+
+KL: 115.27159549188096 KL/N: 0.46108638196752383 KL RAT: 0.5
+  According to your input criteria
+  you are out of the statistical sampling.
+Check the stopping criteria: Running =  False
+ROOT  NAME: freqs.dat
+SAVE  NAME: freqs.dat
+FNAME NAME: None
+
+Restoring the last good dynamical matrix.
+Updating the importance sampling...
+DYN CHANGED BY: 0.0
+Time elapsed to prepare the rho update: 0.00870203971862793 s
+ (of which to diagonalize and prepare the structure: 0.0014 s)
+(of which to update sscha energies and forces: 0.0000 s)
+(of which computing the Upsilon matrix: 0.0073 s)
+(of which to update the weights): 0.009277820587158203 s
+ | to copy the dynamical matrix: 0.00011110305786132812 s
+
+
+ * * * * * * * * 
+ *             * 
+ *   RESULTS   * 
+ *             * 
+ * * * * * * * * 
+
+
+Minimization ended after 47 steps
+
+Free energy = -20065910.38970799 +-       0.87851041 meV
+FC gradient modulus =    2025.37802030 +-    3328.19379644 bohr^2
+Struct gradient modulus =       0.00000000 +-       0.00000000 meV/A
+Kong-Liu effective sample size =  115.27159549188096
+
+Total force on the centroids [eV/A]:
+   0)       0.000000      0.000000      0.000000  +-       0.000000     -0.000000     -0.000000
+   1)       0.000000     -0.000000     -0.000000  +-       0.000000      0.000000      0.000000
+   2)       0.039036      0.000000     -0.027132  +-       0.000021      0.000000     -0.000183
+   3)      -0.039036      0.000000      0.027132  +-      -0.000021      0.000000      0.000183
+   4)      -0.038140      0.000000     -0.029821  +-      -0.000069     -0.000000     -0.000010
+   5)       0.038140      0.000000      0.029821  +-       0.000069     -0.000000      0.000010
+   6)      -0.002369      0.001117     -0.003812  +-      -0.000027     -0.000001      0.000069
+   7)       0.013798      0.000000      0.034529  +-      -0.000075      0.000000      0.000022
+   8)       0.012110      0.000000     -0.032682  +-      -0.000022      0.000000      0.000101
+   9)       0.002369      0.001117      0.003812  +-       0.000027     -0.000001     -0.000069
+  10)      -0.002369     -0.001117     -0.003812  +-      -0.000027      0.000001      0.000069
+  11)      -0.012110      0.000000      0.032682  +-       0.000022      0.000000     -0.000101
+  12)      -0.013798      0.000000     -0.034529  +-       0.000075      0.000000     -0.000022
+  13)       0.002369     -0.001117      0.003812  +-       0.000027      0.000001     -0.000069
+
+
+ ==== STRESS TENSOR [GPa] ==== 
+      1.78811797     -0.00000000      0.00846628                0.04312061      0.00000000      0.01080368
+      0.00000000      2.00912297      0.00000000    +-          0.00000000      0.03588579      0.00000000
+      0.00474215      0.00000000      1.59379831                0.01066339      0.00000000      0.02359286
+
+ Ab initio average stress [GPa]:
+      1.53300004      0.00000000      0.00258211
+      0.00000000      1.72396307      0.00000000
+      0.00258211      0.00000000      1.36915880
+
+ Old frequencies |  New frequencies
+          0.0000 |          -0.0000  cm-1
+          0.0000 |          -0.0000  cm-1
+          0.0000 |           0.0000  cm-1
+         31.7322 |          37.5830  cm-1
+         32.9127 |          48.6901  cm-1
+         39.1523 |          52.0437  cm-1
+         39.2992 |          52.1730  cm-1
+         48.3698 |          52.8912  cm-1
+         48.3995 |          53.0079  cm-1
+         48.9831 |          56.0544  cm-1
+         52.2038 |          56.3419  cm-1
+         52.2206 |          57.0092  cm-1
+         55.6190 |          61.7377  cm-1
+         56.1475 |          61.8464  cm-1
+         59.0231 |          65.1911  cm-1
+         64.8409 |          65.3679  cm-1
+         65.0529 |          67.2347  cm-1
+         65.0529 |          67.2347  cm-1
+         65.1234 |          68.2221  cm-1
+         66.1972 |          68.2221  cm-1
+         66.1972 |          69.3059  cm-1
+         68.3079 |          69.3059  cm-1
+         68.3079 |          69.6669  cm-1
+         68.3789 |          69.6669  cm-1
+         68.3789 |          71.1675  cm-1
+         72.1530 |          72.0975  cm-1
+         72.5544 |          73.0841  cm-1
+         72.5544 |          73.0841  cm-1
+         72.5978 |          73.1296  cm-1
+         72.6492 |          73.4052  cm-1
+         72.6492 |          73.4052  cm-1
+         72.6653 |          77.4044  cm-1
+         72.8852 |          77.4722  cm-1
+         73.0063 |          77.8489  cm-1
+         73.1397 |          78.5298  cm-1
+         80.3772 |          81.9835  cm-1
+         82.1642 |          82.0411  cm-1
+         82.1666 |          83.0418  cm-1
+         84.1981 |          88.4751  cm-1
+         87.8966 |          88.4751  cm-1
+         87.8966 |          88.8100  cm-1
+         87.9598 |          88.8100  cm-1
+         87.9598 |          89.0749  cm-1
+         88.1258 |          89.0749  cm-1
+         88.1258 |          89.0896  cm-1
+         88.3837 |          89.0896  cm-1
+         88.3837 |          89.2546  cm-1
+         93.5306 |          95.9922  cm-1
+         94.1516 |          95.9922  cm-1
+         94.1516 |          96.1719  cm-1
+         94.3850 |          96.1719  cm-1
+         94.3850 |          97.4543  cm-1
+        101.5922 |         101.9024  cm-1
+        101.5922 |         101.9024  cm-1
+        101.9068 |         102.1912  cm-1
+        101.9068 |         102.1912  cm-1
+        107.5294 |         107.7143  cm-1
+        107.6098 |         107.9975  cm-1
+        107.6124 |         108.9326  cm-1
+        107.8206 |         108.9859  cm-1
+        109.8385 |         109.9618  cm-1
+        111.7550 |         112.0642  cm-1
+        111.7598 |         112.1236  cm-1
+        112.0819 |         112.4019  cm-1
+        112.5861 |         112.7571  cm-1
+        112.5966 |         113.2744  cm-1
+        113.8416 |         114.9723  cm-1
+        113.8416 |         114.9723  cm-1
+        113.8927 |         115.3978  cm-1
+        113.8927 |         115.3978  cm-1
+        117.3182 |         117.7382  cm-1
+        120.4442 |         120.9424  cm-1
+        128.4559 |         128.8375  cm-1
+        128.7524 |         128.9252  cm-1
+        129.2221 |         129.6510  cm-1
+        129.2221 |         129.6510  cm-1
+        129.5688 |         130.2940  cm-1
+        129.5688 |         130.3380  cm-1
+        129.6012 |         130.3380  cm-1
+        130.5730 |         132.2471  cm-1
+        130.5730 |         132.2471  cm-1
+        131.0616 |         132.6755  cm-1
+        131.0616 |         132.6755  cm-1
+        131.7721 |         134.4712  cm-1
+        133.7063 |         134.8782  cm-1
+        134.4048 |         134.9961  cm-1
+        134.4048 |         134.9961  cm-1
+        134.4107 |         135.1018  cm-1
+        134.4107 |         135.1018  cm-1
+        135.7038 |         135.9099  cm-1
+        137.2924 |         138.6464  cm-1
+        137.3504 |         138.6464  cm-1
+        137.3504 |         138.7811  cm-1
+        137.4857 |         138.7811  cm-1
+        137.4857 |         138.7813  cm-1
+        138.8850 |         139.9106  cm-1
+        139.9670 |         140.3871  cm-1
+        141.8387 |         141.9936  cm-1
+        144.5176 |         144.9765  cm-1
+        145.9218 |         146.0449  cm-1
+        147.2546 |         147.5788  cm-1
+        147.5373 |         147.6612  cm-1
+        148.8408 |         148.9246  cm-1
+        149.0916 |         149.0385  cm-1
+        150.7867 |         151.4971  cm-1
+        151.0563 |         152.7052  cm-1
+        151.0563 |         152.7458  cm-1
+        151.2314 |         152.7458  cm-1
+        151.2314 |         152.8349  cm-1
+        152.4172 |         153.0755  cm-1
+        152.4466 |         153.0755  cm-1
+        153.1993 |         153.7584  cm-1
+        156.0709 |         157.1971  cm-1
+        156.0709 |         157.1971  cm-1
+        156.3084 |         157.5715  cm-1
+        156.3084 |         157.5715  cm-1
+        159.0820 |         159.4157  cm-1
+        160.8664 |         161.2598  cm-1
+        162.6051 |         163.0532  cm-1
+        163.1787 |         163.3499  cm-1
+        163.2017 |         163.5736  cm-1
+        166.0950 |         167.1968  cm-1
+        166.0950 |         167.1968  cm-1
+        166.4893 |         167.5896  cm-1
+        166.4893 |         167.5896  cm-1
+        169.0914 |         169.1936  cm-1
+        169.8875 |         171.1558  cm-1
+        169.8875 |         171.1558  cm-1
+        170.3111 |         171.6601  cm-1
+        170.3111 |         171.6601  cm-1
+        176.1607 |         176.1187  cm-1
+        180.4911 |         182.2984  cm-1
+        181.5678 |         182.4495  cm-1
+        184.2338 |         184.5010  cm-1
+        184.3019 |         184.5899  cm-1
+        185.2041 |         186.2810  cm-1
+        185.4594 |         186.4718  cm-1
+        188.0745 |         189.0496  cm-1
+        190.3158 |         190.4067  cm-1
+        190.3158 |         190.4067  cm-1
+        190.4757 |         190.7753  cm-1
+        190.4757 |         190.7753  cm-1
+        190.6203 |         191.4909  cm-1
+        198.5379 |         199.3045  cm-1
+        201.3029 |         202.5542  cm-1
+        202.5628 |         203.2370  cm-1
+        202.5628 |         203.2370  cm-1
+        203.1638 |         204.1886  cm-1
+        203.1638 |         204.1886  cm-1
+        206.2145 |         207.1166  cm-1
+        206.5231 |         207.2105  cm-1
+        209.7198 |         210.0551  cm-1
+        209.7198 |         210.0551  cm-1
+        209.8097 |         210.3550  cm-1
+        209.8097 |         210.3550  cm-1
+        210.8861 |         211.3613  cm-1
+        211.2061 |         211.3961  cm-1
+        212.0926 |         212.5441  cm-1
+        212.0926 |         212.9674  cm-1
+        212.6061 |         212.9674  cm-1
+        212.7487 |         213.2046  cm-1
+        212.7487 |         213.2046  cm-1
+        216.1707 |         217.4579  cm-1
+        217.6603 |         218.3161  cm-1
+        218.1073 |         218.5863  cm-1
+        225.9053 |         226.8846  cm-1
+        228.0864 |         229.1223  cm-1
+        228.0864 |         229.1223  cm-1
+        228.3894 |         229.8006  cm-1
+        228.3894 |         229.8006  cm-1
+        230.7260 |         231.4892  cm-1
+        230.7260 |         232.0574  cm-1
+        230.7800 |         232.0574  cm-1
+        230.7800 |         232.4177  cm-1
+        231.2256 |         232.4177  cm-1
+        232.6278 |         233.3541  cm-1
+        234.2678 |         234.7203  cm-1
+        234.3424 |         235.0571  cm-1
+        235.9122 |         237.0180  cm-1
+        236.3351 |         237.1343  cm-1
+        237.6077 |         237.8479  cm-1
+        237.7170 |         238.2414  cm-1
+        247.2191 |         247.5241  cm-1
+        247.7992 |         248.0376  cm-1
+        247.7992 |         248.3371  cm-1
+        247.8189 |         248.3371  cm-1
+        247.9174 |         248.3458  cm-1
+        247.9174 |         248.3458  cm-1
+        250.2659 |         251.0690  cm-1
+        250.2659 |         251.0690  cm-1
+        250.5003 |         251.2038  cm-1
+        250.5003 |         251.2038  cm-1
+        260.0760 |         260.4695  cm-1
+        260.0760 |         260.4695  cm-1
+        260.3822 |         260.5221  cm-1
+        260.5175 |         260.6848  cm-1
+        260.7359 |         260.9576  cm-1
+        260.7359 |         260.9576  cm-1
+        261.9966 |         263.3431  cm-1
+        262.1453 |         264.3895  cm-1
+        267.8671 |         268.5192  cm-1
+        267.8674 |         269.5397  cm-1
+        267.9835 |         269.9831  cm-1
+        276.4919 |         276.6065  cm-1
+        276.5187 |         276.6660  cm-1
+        277.1727 |         277.4517  cm-1
+        277.5599 |         277.5034  cm-1
+        287.9324 |         288.3892  cm-1
+        288.5562 |         288.8813  cm-1
+        290.4571 |         290.7289  cm-1
+        290.4571 |         290.7289  cm-1
+        290.7747 |         291.2174  cm-1
+        290.7747 |         291.2174  cm-1
+        291.5247 |         292.1068  cm-1
+        291.5247 |         292.1068  cm-1
+        291.8245 |         292.3249  cm-1
+        291.8245 |         292.3249  cm-1
+        292.5472 |         292.7444  cm-1
+        292.6404 |         292.9320  cm-1
+        293.1299 |         295.0718  cm-1
+        294.7413 |         295.0838  cm-1
+        294.8731 |         295.2866  cm-1
+        298.9649 |         298.9315  cm-1
+        303.6254 |         304.2271  cm-1
+        303.6254 |         304.2271  cm-1
+        303.7626 |         304.5040  cm-1
+        303.7626 |         304.5040  cm-1
+        309.9845 |         310.6245  cm-1
+        310.7003 |         311.2674  cm-1
+        315.7785 |         315.9873  cm-1
+        315.8333 |         316.3070  cm-1
+        315.8333 |         316.3070  cm-1
+        315.8460 |         316.3516  cm-1
+        315.8460 |         316.3516  cm-1
+        317.9201 |         318.3983  cm-1
+        317.9201 |         318.3983  cm-1
+        318.0188 |         318.5310  cm-1
+        318.0188 |         318.5310  cm-1
+        320.9450 |         320.9489  cm-1
+        323.3285 |         323.3223  cm-1
+        323.8668 |         323.8336  cm-1
+        323.8668 |         323.8336  cm-1
+        324.0152 |         324.1248  cm-1
+        324.0152 |         324.1248  cm-1
+        325.2011 |         325.2483  cm-1
+        325.2011 |         325.2483  cm-1
+        325.5412 |         325.7034  cm-1
+        325.5412 |         325.7034  cm-1
+        326.4816 |         326.2480  cm-1
+        326.5181 |         326.7332  cm-1
+        326.6635 |         326.8056  cm-1
+        336.2749 |         336.6467  cm-1
+        341.7138 |         341.7702  cm-1
+        346.9870 |         347.1892  cm-1
+        347.3490 |         347.9831  cm-1
+        351.4219 |         351.8898  cm-1
+        354.0330 |         354.0813  cm-1
+        354.0330 |         354.0813  cm-1
+        354.0733 |         354.2058  cm-1
+        354.0733 |         354.2058  cm-1
+        354.5866 |         355.0772  cm-1
+        354.6803 |         355.4555  cm-1
+        362.7884 |         363.5673  cm-1
+        366.1495 |         366.2383  cm-1
+        366.1909 |         366.5341  cm-1
+        368.0833 |         368.4876  cm-1
+        368.2177 |         368.5735  cm-1
+        368.4069 |         368.9142  cm-1
+        368.4069 |         368.9142  cm-1
+        368.4766 |         369.1280  cm-1
+        368.4766 |         369.1280  cm-1
+        389.8161 |         390.0699  cm-1
+        393.8984 |         394.7307  cm-1
+        405.7216 |         406.5020  cm-1
+        422.3586 |         422.9445  cm-1
+        422.3586 |         422.9445  cm-1
+        422.4303 |         423.2585  cm-1
+        422.4303 |         423.2585  cm-1
+        424.0981 |         423.8663  cm-1
+        447.4842 |         447.4272  cm-1
+        447.5247 |         447.5224  cm-1
+        447.5854 |         448.0164  cm-1
+        448.3464 |         448.9073  cm-1
+        448.3464 |         448.9073  cm-1
+        448.4628 |         448.9958  cm-1
+        448.4628 |         448.9958  cm-1
+        457.5666 |         457.6976  cm-1
+        457.6242 |         457.8464  cm-1
+        464.9120 |         465.7398  cm-1
+        467.1283 |         467.3384  cm-1
+        467.4839 |         467.7022  cm-1
+        478.5980 |         478.8725  cm-1
+        478.5980 |         478.8725  cm-1
+        478.6700 |         479.2539  cm-1
+        478.6700 |         479.2539  cm-1
+        481.9741 |         482.0480  cm-1
+        481.9741 |         482.0480  cm-1
+        481.9910 |         482.1202  cm-1
+        481.9910 |         482.1202  cm-1
+        485.1643 |         485.7217  cm-1
+        491.3069 |         491.4257  cm-1
+        491.3549 |         491.4436  cm-1
+        492.6555 |         492.8409  cm-1
+        492.6943 |         492.9395  cm-1
+        497.1386 |         496.9682  cm-1
+        564.3036 |         564.2710  cm-1
+        564.3682 |         564.3766  cm-1
+        564.5013 |         564.4615  cm-1
+        564.6912 |         564.7047  cm-1
+        570.3348 |         570.4228  cm-1
+        570.3348 |         570.4228  cm-1
+        570.5280 |         570.4892  cm-1
+        570.5280 |         570.4892  cm-1
+        577.7695 |         577.6723  cm-1
+        623.6415 |         624.3499  cm-1
+        623.6415 |         624.3499  cm-1
+        623.7470 |         624.5764  cm-1
+        623.7470 |         624.5764  cm-1
+        639.3419 |         639.5123  cm-1
+        639.3419 |         639.5123  cm-1
+        639.4651 |         639.5732  cm-1
+        639.4651 |         639.5732  cm-1
+        640.3551 |         640.4320  cm-1
+        640.4566 |         640.6040  cm-1
+        654.9624 |         655.0300  cm-1
+        655.1776 |         655.3357  cm-1
+        686.2079 |         686.6249  cm-1
+        686.2079 |         686.6249  cm-1
+        686.2970 |         686.7586  cm-1
+        686.2970 |         686.7586  cm-1
+        688.0663 |         689.1714  cm-1
+        688.3819 |         689.3682  cm-1
+        692.9502 |         693.4030  cm-1
+        693.0519 |         693.4070  cm-1
+        693.8305 |         694.0118  cm-1
+        693.9027 |         694.2550  cm-1
