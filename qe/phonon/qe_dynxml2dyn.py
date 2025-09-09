@@ -3,6 +3,11 @@ import argparse, os, re, sys, math
 from typing import List, Tuple
 import numpy as np
 
+ """
+ usage 1: python qe_dynxml2dyn.py --prefix /path/to/prefix --q 1 5 7 9-10
+ usage 2: python qe_dynxml2dyn.py --inputs prefix.dyn1.xml prefix.dyn2.xml
+ """
+
 THZ_TO_CM1 = 33.35640951981521
 AMU_TO_RY_MASS = 1822.888486209/2.0
 
