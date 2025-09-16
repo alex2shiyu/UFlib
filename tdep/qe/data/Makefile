@@ -15,7 +15,7 @@ input:
 	 tdep_parse_output --temperature $(temp) samples/*/vasprun.xml > out1.dat
 
 new-fc-debye:
-	canonical_configuration --quantum --temperature $(temp) -n $(nsample) -td $(td) > out2.dat
+	canonical_configuration --quantum --temperature $(temp) -n $(nsample) -td $(td) -of 8 > out2.dat
 	cp outfile.fakeforceconstant infile.forceconstant
 	phonon_dispersion_relations --unit mev -p > out3.dat
 	gnuplot -p outfile.dispersion_relations.gnuplot_pdf
@@ -23,7 +23,7 @@ new-fc-debye:
 new-fc2:
 	extract_forceconstants -rc2 $(rc2) --polar  2>&1 | tee extract_forceconstants.log
 	cp outfile.forceconstant infile.forceconstant
-	canonical_configuration --quantum --temperature $(temp) -n $(nsample) > out2.dat
+	canonical_configuration --quantum --temperature $(temp) -n $(nsample) -of 8 > out2.dat
 	phonon_dispersion_relations --unit mev -p > out3.dat
 	gnuplot -p outfile.dispersion_relations.gnuplot_pdf
 	tdep_plot_fc_norms > out4.dat
@@ -31,7 +31,7 @@ new-fc2:
 new-fc2fc3:
 	extract_forceconstants -rc2 $(rc2) -rc3 $(rc3) --polar  2>&1 | tee extract_forceconstants.log
 	cp outfile.forceconstant infile.forceconstant
-	canonical_configuration --quantum --temperature $(temp) -n $(nsample) > out2.dat
+	canonical_configuration --quantum --temperature $(temp) -n $(nsample) -of 8 > out2.dat
 	phonon_dispersion_relations --unit mev -p > out3.dat
 	gnuplot -p outfile.dispersion_relations.gnuplot_pdf
 	tdep_plot_fc_norms > out4.dat
