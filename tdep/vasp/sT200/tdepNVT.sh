@@ -53,7 +53,7 @@ fi
 cp -r ../../../data/input_demo ./"$DIR1"
 cd $DIR1
 
-cp "../../../../$sourceDIR/contcar_conf${NQ}" ./POSCAR
+cp "../../../$sourceDIR/contcar_conf${NQ}" ./POSCAR
 
 #-------------------------------------------------------------
 #change the phonon script

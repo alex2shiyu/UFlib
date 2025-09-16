@@ -1,6 +1,7 @@
 rc2 = 7.2
 nsample = 5
 temp = 300
+td = 600
 
 default: all
 
