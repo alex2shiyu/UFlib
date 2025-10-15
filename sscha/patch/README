@@ -1,3 +1,5 @@
 Replace this file in /CellConstructor/cellconstructor
 
 The patches are marked by "BKC"
+
+Phonon-syp.py: this one contains the proper if-eles block to handle metal where there is no epsilon/zstar part.
