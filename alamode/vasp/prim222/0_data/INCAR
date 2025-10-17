@@ -1,0 +1,48 @@
+SYSTEM = SrMoS
+NBANDS = 480
+
+ISTART = 0
+ICHARG = 2
+
+EDIFF = 1E-8
+ENCUT = 500
+
+
+NELM = 200
+NELMIN = 5
+
+#IBRION=1
+#ISIF=2
+#POTIM=0.3
+#NSW = 200
+ISMEAR = -5
+SIGMA= 0.01
+EDIFFG=-0.001
+
+KPAR = 4
+NPAR = 5
+
+PREC = Accurate
+#LREAL = Auto
+LORBIT = 11
+
+ISPIN=1
+SAXIS = 0  0  1
+
+#LDAU = .TRUE.
+#LDAUTYPE = 2 
+#LDAUL = 2  -1  -1  -1  
+#LDAUU = 5   0   0   0
+#LDAUJ = 0   0   0   0
+
+#LHFCALC  = .TRUE.
+#HFSCREEN = 0.2
+#GGA      = PE
+#ALGO     = D
+#TIME     = 0.4
+#HFRCUT = 0
+
+
+LMAXMIX = 6
+
+LWAVE = .False.
