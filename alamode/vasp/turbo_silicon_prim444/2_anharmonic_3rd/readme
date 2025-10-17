@@ -1,0 +1,5 @@
+
+iter.0000_almSample: [good] enter this folder, type `make`
+iter.0001_runQE: [good] modify almNVT.sh, sbatch almNVT.sh
+iter.0002_fitting: [good] enter this folder, type `make` 
+iter.0003_thermalcond: [good] the thermal conductivity is correct. Kappa_100K = 900 W/m/K
