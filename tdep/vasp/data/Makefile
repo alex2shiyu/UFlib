@@ -3,6 +3,7 @@ rc3 = 6
 nsample = 5
 temp = 300
 td = 600
+nthrow = 0 # to throw away initial steps for aimd
 
 default: all
 
@@ -12,7 +13,7 @@ input-debye:
 input:
 	 cp ../../data/crystal/infile.ucposcar ../../data/crystal/infile.ssposcar ./
 	 cp ../../data/loto/outfile.lotosplitting ./infile.lotosplitting
-	 tdep_parse_output --temperature $(temp) samples/*/vasprun.xml > out1.dat
+	 tdep_parse_output --temperature $(temp) --discard-start $(nthrow) samples/*/vasprun.xml > out1.dat
 
 new-fc-debye:
 	canonical_configuration --quantum --temperature $(temp) -n $(nsample) -td $(td) > out2.dat
