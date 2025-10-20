@@ -1,0 +1,3 @@
+Sometimes, we need to do SSCHA from aimd. Here is the script to transfer POSCAR-like into qe and get the displacement.
+
+Original work path: turbo:/home/sypeng/work/batio3/qe/pw-ph-wann/sscha-222-qe/iter.0001_aimd
